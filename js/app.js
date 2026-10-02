@@ -589,7 +589,7 @@ function renderRankings() {
           <span class="podium-rank">${i + 1}</span>
           <span class="podium-name">${safe(t.name)}</span>
           <span class="podium-pts">${fmt(t.points)} <small>pts</small></span>
-          <span class="podium-gap">${i === 0 ? '<span class="money">In the money</span>' : `${fmt(lead - t.points)} behind`}</span>
+          <span class="podium-gap">${i === 0 ? '' : `${fmt(lead - t.points)} behind`}</span>
         </li>`).join('')}</ol>` : ''}
       ${bestWeek && weekPts(bestWeek) > 0 ? `<p class="spotlight">✨ Top team in week ${latest}: <b>${safe(bestWeek.name)}</b> with ${fmt(weekPts(bestWeek))} pts</p>` : ''}
     </div>
