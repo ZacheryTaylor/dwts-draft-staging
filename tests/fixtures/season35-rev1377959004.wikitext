@@ -1,0 +1,1211 @@
+{{pp-dispute|small=yes}}
+{{Use American English|date=April 2026}}
+{{pp|small=yes}} 
+{{use mdy dates|date=April 2026}}
+{{Infobox television season
+| bgcolor              = #98C7F7
+| image                = DWTS US Season 35 Poster.jpg
+| caption              = Promotional poster for season 35, featuring hosts Alfonso Ribeiro and Julianne Hough, and the celebrity cast
+| module1              = {{Infobox reality competition season
+| host                 = {{Plainlist|
+* [[Alfonso Ribeiro]]
+* [[Julianne Hough]]
+}}
+| judges               = {{Plainlist|
+* [[Derek Hough]]
+* [[Carrie Ann Inaba]]
+* [[Bruno Tonioli]]
+}}
+| celebrity_winner     = 
+| professional_winner  = 
+}}
+| num_episodes         = 5 (including ''After Party'')<!-- increment when new episode airs - This is INCLUDING the After Party special episode -->
+| network              = {{Plainlist|
+* [[American Broadcasting Company|ABC]]
+* [[Disney+]]
+}}
+| first_aired          = {{Start date|2026|9|15}}
+| last_aired           = present 
+}}
+
+'''Season thirty-five''' of ''[[Dancing with the Stars (American TV series)|Dancing with the Stars]]'' premiered on [[American Broadcasting Company|ABC]] and [[Disney+]] on September 15, 2026,<ref>{{Cite web |last=Pedersen |first=Erik |date=July 27, 2026 |title=ABC Sets Fall Premiere Dates For Drama, Comedy & Reality Shows Including ''Grey’s Anatomy,'' ''Scrubs,'' ''DWTS,'' ''9-1-1'' Duo & More |url=https://deadline.com/2026/07/abc-fall-2026-premiere-dates-1237004718/ |access-date=July 29, 2026 |website=[[Deadline Hollywood]] |language=en-US|archive-url=https://web.archive.org/web/20260727210806/https://deadline.com/2026/07/abc-fall-2026-premiere-dates-1237004718/|archive-date=July 27, 2026|url-status=live}}</ref> and is scheduled to conclude on November 24, 2026.<ref>{{cite web|url=http://www.thefutoncritic.com/listings/2026/11/24/|title=Listings – November 24, 2026|publisher=[[The Futon Critic]]|quote=dancing with the stars: finale (#3512) [35th season finale]|access-date=September 18, 2026}}</ref> This season was the fourth to air live on both networks simultaneously. [[Dancing with the Stars (American TV series) season 19|Season nineteen]] champion [[Alfonso Ribeiro]] returned to host the installment, while former professional dancer and judge [[Julianne Hough]] returned as co-host.<ref name="TodayApril2026">{{Cite web |last=Calvario |first=Liz |date=April 22, 2026 |title=Maura Higgins and Ciara Miller to Compete on ''Dancing With the Stars'' Season 35 |url=https://www.today.com/popculture/tv/maura-higgins-ciara-miller-dancing-with-the-stars-season-35-rcna341538 |url-status=live |archive-url=https://web.archive.org/web/20260423015343/https://www.today.com/popculture/tv/maura-higgins-ciara-miller-dancing-with-the-stars-season-35-rcna341538 |archive-date=April 23, 2026 |access-date=April 23, 2026 |website=[[Today (American TV program)|Today]] |language=en}}</ref>
+
+== Cast ==
+=== Couples ===
+On April 22, 2026, during an [[Upfront (advertising)|upfront]] for [[Hulu]]'s unscripted programming, [[Ciara Miller]] and [[Maura Higgins]] were announced as the first celebrity participants for the thirty-fifth season.<ref>{{Cite web |last=Strause |first=Jackie |date=April 22, 2026 |title=''Summer House'' Star Ciara Miller Cast in ''Dancing With the Stars'' Season 35 |url=https://www.hollywoodreporter.com/tv/tv-news/summer-house-ciara-miller-dwts-1236571929/ |access-date=April 22, 2026 |website=[[The Hollywood Reporter]] |language=en-US|archive-url=https://web.archive.org/web/20260423003034/https://www.hollywoodreporter.com/tv/tv-news/summer-house-ciara-miller-dwts-1236571929/|archive-date=April 23, 2026|url-status=live}}</ref> [[Jackson Olson]] joined the cast three weeks later during an upfront for [[The Walt Disney Company|Disney]]'s original programming.<ref>{{Cite web |last=Shanfeld |first=Ethan |date=May 12, 2026 |title=''Dancing With the Stars'' Season 35 Adds Savannah Bananas Player; Disney+ to Stream Live Banana Bowl Game |url=https://variety.com/2026/tv/news/dancing-with-the-stars-season-35-savannah-bananas-1236746141/ |access-date=May 12, 2026 |website=[[Variety (magazine)|Variety]] |language=en-US|archive-url=https://web.archive.org/web/20260512214053/https://variety.com/2026/tv/news/dancing-with-the-stars-season-35-savannah-bananas-1236746141/|archive-date=May 12, 2026|url-status=live}}</ref> On June 17, [[TMZ]] reported that [[Guillermo Rodriguez (comedian)|Guillermo Rodriguez]] joined the cast;<ref>{{Cite web |last= |first= |date=June 17, 2026 |title=Jimmy Kimmel Sidekick Guillermo Rodriguez Joins ''Dancing With the Stars'' Season 35 |url=https://www.tmz.com/2026/06/17/guillermo-rodriguez-joins-dancing-with-the-stars-season-35/ |access-date=June 18, 2026 |language=en|archive-url=https://web.archive.org/web/20260618030750/https://www.tmz.com/2026/06/17/guillermo-rodriguez-joins-dancing-with-the-stars-season-35/|archive-date=June 18, 2026|url-status=live|publisher=[[TMZ]]}}</ref> [[Jimmy Kimmel]] confirmed Rodriguez's appearance later that day.<ref>{{Cite web |last=Shanfeld |first=Ethan |date=June 17, 2026 |title=Guillermo Rodriguez of ''Jimmy Kimmel Live!'' Joins ''Dancing With the Stars'' Season 35 |url=https://variety.com/2026/tv/news/guillermo-jimmy-kimmel-dwts-season-35-1236784635/ |access-date=June 18, 2026 |website=[[Variety (magazine)|Variety]] |language=en-US|archive-url=https://web.archive.org/web/20260618033220/https://variety.com/2026/tv/news/guillermo-jimmy-kimmel-dwts-season-35-1236784635/|archive-date=June 18, 2026|url-status=live}}</ref> Throughout August, [[Tyler Cameron]], [[Jenna Dewan]],<ref>{{Cite web |last=Hudgins |first=Ryan |last2=Williams |first2=Amanda |date=August 19, 2026 |title=Tyler Cameron and Jenna Dewan Are Competing on ''Dancing With the Stars'' Season 35: Sources (Exclusive) |url=https://www.usmagazine.com/entertainment/news/tyler-cameron-and-jenna-dewan-competing-on-dwts-season-35/ |access-date=August 19, 2026 |website=[[Us Weekly]] |language=en-US|archive-url=https://web.archive.org/web/20260820000022/https://www.usmagazine.com/entertainment/news/tyler-cameron-and-jenna-dewan-competing-on-dwts-season-35/|archive-date=August 20, 2026|url-status=live}}</ref> [[Julia Stiles]], [[Tatyana Ali]],<ref>{{Cite web |last= |first= |date=August 20, 2026 |title=Julia Stiles and Tatyana Ali Competing on ''Dancing With The Stars'' |url=https://www.tmz.com/2026/08/20/julia-stiles-tatyana-ali-join-dwts/ |url-status=live |archive-url=https://web.archive.org/web/20260820234622/https://www.tmz.com/2026/08/20/julia-stiles-tatyana-ali-join-dwts/ |archive-date=August 20, 2026 |access-date=August 20, 2026 |publisher=[[TMZ]] |language=en}}</ref> [[Love Thy Nader|Sarah Jane Nader]] and [[The Secret Lives of Mormon Wives|Conner Leavitt]] were named to the cast.<ref>{{Cite web |last=Frank |first=Jason P. |date=August 21, 2026 |title=Julia Stiles Saved the Last Dance for ABC |url=https://www.vulture.com/article/dancing-with-the-stars-season-35-cast.html |url-status=live |archive-url=https://web.archive.org/web/20260821211640/https://www.vulture.com/article/dancing-with-the-stars-season-35-cast.html |archive-date=August 21, 2026 |access-date=August 21, 2026 |website=[[Vulture (website)|Vulture]] |language=en}}</ref> Nader is the younger sister of [[Dancing with the Stars (American TV series) season 33|season thirty-three]] contestant [[Brooks Nader]], and Leavitt is the husband of [[Dancing with the Stars (American TV series) season 34|season thirty-four]] semi-finalist [[Whitney Leavitt]].<ref>{{Cite web |last=Harp |first=Justin |last2=Williams |first2=Amanda |date=August 20, 2026 |title=''DWTS'' Season 35 to Feature Whitney Leavitt’s Husband Conner, Brooks Nader’s Sister Sarah Jane |url=https://www.usmagazine.com/entertainment/news/dwts-casts-whitney-leavitts-husband-brooks-naders-sister/ |url-status=live |archive-url=https://web.archive.org/web/20260821000524/https://www.usmagazine.com/entertainment/news/dwts-casts-whitney-leavitts-husband-brooks-naders-sister/ |archive-date=August 21, 2026 |access-date=August 20, 2026 |website=[[Us Weekly]] |language=en-US}}</ref> [[Amber Glenn]] and [[Ezra Frech]] became the first [[Winter Olympic Games|Olympic]] and [[Paralympic Games|Paralympic]] champions to compete during the same season.<ref>{{Cite news |date=September 3, 2026 |title=Olympic and Paralympic champions Amber Glenn and Ezra Frech to appear on ''Dancing with the Stars'' |url=https://www.olympics.com/en/news/amber-glenn-ezra-frech-dancing-with-the-stars |url-status=live |archive-url=https://web.archive.org/web/20260909173102/https://www.olympics.com/en/news/amber-glenn-ezra-frech-dancing-with-the-stars |archive-date=September 9, 2026 |access-date=September 9, 2026 |work=Olympics.com |publisher=[[International Olympic Committee]]}}</ref> 
+
+The first celebrity-professional dancer pairing, Rodriguez and the reigning champion [[Witney Carson]], was announced on ''[[Good Morning America]]'' on August 17, 2026.<ref>{{Cite news |last=Blanchet |first=Brenton |date=August 17, 2026 |title=''Dancing with the Stars''{{’}} Witney Carson Reveals Her Celebrity Partner for Season 35 |url=https://people.com/dancing-with-the-stars-witney-carson-reveals-her-celebrity-partner-season-35-12058401 |access-date=August 17, 2026 |work=[[People (magazine)|People]]|archive-url=https://ghostarchive.org/archive/PcCEO|archive-date=August 17, 2026|url-status=live}}</ref> At the time of the announcement, Carson was four months pregnant with her third child.<ref name="WCPregnant">{{Cite news |last=Sacks |first=Hannah |last2=Grant |first2=Kayla |last3=Tauber |first3=Michelle |date=August 17, 2026 |title=''DWTS'' Pro Witney Carson Is Pregnant, Expecting Baby No. 3 with Husband Carson McAllister (Exclusive) |url=https://people.com/dwts-pro-witney-carson-expecting-baby-no-3-with-husband-carson-mcallister-11872619 |access-date=August 17, 2026 |work=[[People (magazine)|People]]|archive-url=https://ghostarchive.org/archive/hg4FB|archive-date=August 17, 2026|url-status=live}}</ref> She became the first pro to enter an installment of ''Dancing with the Stars'' while pregnant,<ref>{{Cite web |last=Franklin |first=McKinley |date=August 17, 2026 |title=Witney Carson Is Pregnant and Returning for ''Dancing With the Stars'' Season 35 |url=https://www.hollywoodreporter.com/tv/tv-news/witney-carson-pregnant-dancing-with-the-stars-season-35-1236674102/ |access-date=August 17, 2026 |website=[[The Hollywood Reporter]] |language=en-US|archive-url=https://web.archive.org/web/20260817180102/https://www.hollywoodreporter.com/tv/tv-news/witney-carson-pregnant-dancing-with-the-stars-season-35-1236674102/|archive-date=August 17, 2026|url-status=live}}</ref> and the first to compete that far into her second trimester.<ref name="WCPregnant" /> [[Gleb Savchenko]] and [[Sasha Farber]] did not return as pros this season,<ref>{{Cite web |date=September 2, 2026 |title=Why Isn't Gleb Savchenko in the ''Dancing With the Stars'' Season 35 Cast? |url=https://www.cosmopolitan.com/entertainment/celebs/a73591798/why-isnt-gleb-on-dancing-with-the-stars-season-35/ |access-date=September 2, 2026 |website=[[Cosmopolitan (magazine)|Cosmopolitan]] |language=en-US|last=Bonner|first=Mehera|archive-url=https://web.archive.org/web/20260902171250/https://www.cosmopolitan.com/entertainment/celebs/a73591798/why-isnt-gleb-on-dancing-with-the-stars-season-35/|archive-date=September 2, 2026|url-status=live}}</ref> although Farber was still involved in other capacities.<ref>{{Cite web |last=Dow |first=Marissa |date=September 16, 2026 |title=How Sasha Farber Returned to ''Dancing With the Stars'' for Season 35 Premiere Without Being a Pro |url=https://www.eonline.com/news/1436128/dancing-with-the-stars-season-35-sasha-farbers-role-explained |url-status=live |archive-url=https://web.archive.org/web/20260916175829/https://www.eonline.com/news/1436128/dancing-with-the-stars-season-35-sasha-farbers-role-explained |archive-date=September 16, 2026 |access-date=September 21, 2026 |website=[[E! News]]}}</ref> After a five-year hiatus, [[Sharna Burgess]] returned to the lineup on August 24.<ref>{{Cite news |last=Coleman |first=Ryan |date=August 24, 2026 |title=Sharna Burgess returning to ''Dancing With the Stars'' as a pro five years after surprise departure |url=https://ew.com/sharna-burgess-returning-to-dwts-as-pro-five-years-after-surprise-exit-12066061 |url-status=live |archive-url=https://web.archive.org/web/20260824132715/https://ew.com/sharna-burgess-returning-to-dwts-as-pro-five-years-after-surprise-exit-12066061 |archive-date=August 24, 2026 |access-date=August 24, 2026 |work=[[Entertainment Weekly]]}}</ref> [[Adele Zaikman]], winner of ''[[Dancing with the Stars: The Next Pro]]'', joined the series as a first-time pro on August 31.<ref>{{Cite news |last=Coleman |first=Ryan |date=August 31, 2026 |title=''Dancing With the Stars: The Next Pro'' crowns [SPOILER] as first winner in dazzling finale |url=https://ew.com/dwts-the-next-pro-crowns-its-first-winner-in-thrilling-finale-12074744 |access-date=August 31, 2026 |work=[[Entertainment Weekly]]|archive-url=https://web.archive.org/web/20260901031946/https://ew.com/dwts-the-next-pro-crowns-its-first-winner-in-thrilling-finale-12074744|archive-date=September 1, 2026|url-status=live}}</ref> She is the first [[Israelis|Israeli]] professional dancer to be featured on the series.<ref>{{Cite web |last=Karpen |first=Elizabeth |date=September 1, 2026 |title=Meet Adele Zaikman, the first Israeli pro on ''Dancing With the Stars'' |url=https://unpacked.media/meet-adele-zaikman-the-first-israeli-pro-on-dancing-with-the-stars/ |url-status=live |archive-url=https://web.archive.org/web/20260903200758/https://unpacked.media/meet-adele-zaikman-the-first-israeli-pro-on-dancing-with-the-stars/ |archive-date=September 3, 2026 |access-date=September 9, 2026 |website=[[Unpacked (website)|Unpacked]] |language=en-US}}</ref> Season thirty-four troupe member [[Hailey Bills]] was promoted to a first-time pro.<ref>{{Cite web |last=Nesvig |first=Kara |date=September 2, 2026 |title=New ''Dancing with the Stars'' Pro Hailey Bills Says Getting the Job Is "Surreal" |url=https://www.teenvogue.com/story/20-year-old-hailey-bills-is-the-new-pro-on-dancing-with-the-stars |access-date=September 2, 2026 |website=[[Teen Vogue]] |language=en-US|archive-url=https://web.archive.org/web/20260902145100/https://www.teenvogue.com/story/20-year-old-hailey-bills-is-the-new-pro-on-dancing-with-the-stars|archive-date=September 2, 2026|url-status=live}}</ref> Her pairing with Nader marked the third same-sex partnership in the series' history, following [[JoJo Siwa]] & [[Jenna Johnson (dancer)|Jenna Johnson]] from [[Dancing with the Stars (American TV series) season 30|season thirty]] and [[Shangela]] & Savchenko from [[Dancing with the Stars (American TV series) season 31|season thirty-one]].<ref>{{Cite news |last=Galante |first=Grace |date=August 20, 2026 |title=''DWTS'' Season 35 Will Feature First Same-Sex Partnership in 4 Years |url=https://parade.com/news/dwts-season-35-feature-same-sex-partnership-sarah-jane-nader-first-time-4-years |access-date=August 20, 2026 |work=[[Parade (magazine)|Parade]]|archive-url=https://web.archive.org/web/20260821021325/https://parade.com/news/dwts-season-35-feature-same-sex-partnership-sarah-jane-nader-first-time-4-years|archive-date=August 21, 2026|url-status=live}}</ref> 
+
+The full roster of celebrity participants and their partnerships was revealed on ''Good Morning America'' on September 2.<ref name="GMA">{{Cite web |last=Bernabe |first=Angeline Jade |date=September 2, 2026 |title=''Dancing with the Stars'' season 35: Meet the celebrity cast and their pro dance partners |url=https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-celebrity-cast/story?id=136095657 |access-date=September 2, 2026 |website=[[Good Morning America]] |publisher=[[ABC News (United States)|ABC News]] |language=en|archive-url=https://web.archive.org/web/20260903214304/https://abcnews.com/GMA/Culture/dancing-with-the-stars-season-35-celebrity-cast/story?id=136095657|archive-date=September 3, 2026|url-status=live}}</ref> With sixteen couples, this season is tied with [[Dancing with the Stars (American TV series) season 9|season nine]] and season thirty-one as having the largest cast in the show's history.<ref>{{Cite web |last=Esquibias |first=Liza |last2=Goldstein |first2=Joelle |date=September 2, 2026 |title=''Dancing with the Stars'' 2026 cast revealed – See who's competing in Season 35 |url=https://www.usatoday.com/story/entertainment/tv/2026/09/02/dancing-with-the-stars-season-35-cast/91491311007/ |access-date=September 2, 2026 |website=[[USA Today]] |language=en-US|archive-url=https://web.archive.org/web/20260902151109/https://www.usatoday.com/story/entertainment/tv/2026/09/02/dancing-with-the-stars-season-35-cast/91491311007/|archive-date=September 2, 2026|url-status=live}}</ref>
+
+{| class="wikitable sortable" style="text-align:center;"
+|+Cast of ''Dancing with the Stars'' (season 35)
+|-
+! scope="col" | Celebrity
+! scope="col" class="unsortable"| Notability
+! scope="col" | Professional partner
+! scope="col" | Status
+! scope="col" class="unsortable"|{{Abbr|Ref.|Reference}}
+|-
+! scope="row"| {{sortname|Conner|Leavitt|The Secret Lives of Mormon Wives}}
+| ''[[The Secret Lives of Mormon Wives]]'' cast member
+| {{sortname|Adele|Zaikman}}
+| style="background:#f4c7b8;"|{{nowrap|Eliminated 1st}}<br />{{small|on September 15, 2026}}
+| <ref>{{Cite web |last=Coleman |first=Ryan |date=September 16, 2026 |title=''Dancing with the Stars'' season 35 premiere night 1 recap: A surprising frontrunner emerges and the first celeb goes home |url=https://ew.com/dwts-season-35-premiere-night-1-recap-surprising-frontrunner-first-celeb-goes-home-12123526 |access-date=September 16, 2026 |website=[[Entertainment Weekly]] |language=en|archive-url=https://megalodon.jp/2026-0919-0515-51/https://ew.com:443/dwts-season-35-premiere-night-1-recap-surprising-frontrunner-first-celeb-goes-home-12123526|archive-date=September 19, 2026|url-status=live}}</ref>
+|-
+! scope="row"| {{sortname|Sarah Jane|Nader|Love Thy Nader}}
+| ''[[Love Thy Nader]]'' star
+| {{sortname|Hailey|Bills}}
+| style="background:#f4c7b8;"|{{nowrap|Eliminated 2nd}}<br />{{small|on September 16, 2026}}
+| <ref>{{Cite web |last=Franklin |first=McKinley |date=September 16, 2026 |title=''Dancing With the Stars'' Caps Off Season 35 Premiere With the Female Celebrities and an Elimination: See the Scores, Who Went Home |url=https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-premiere-recap-female-celebs-scores-elimination-1236703772/ |url-status=live |archive-url=https://web.archive.org/web/20260917010436/https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-premiere-recap-female-celebs-scores-elimination-1236703772/ |archive-date=September 17, 2026 |access-date=September 18, 2026 |website=[[The Hollywood Reporter]] |language=en-US}}</ref>
+|-
+! scope="row"| {{sortname|Giada|De Laurentiis}}
+| Celebrity chef & entrepreneur
+| {{sortname|Alan|Bersten}}
+| style="background:#f4c7b8;"|{{nowrap|Eliminated 3rd}}<br />{{small|on September 22, 2026}}
+| <ref>{{Cite web |last=Esquibas |first=Lisa |last2=Goldstein |first2=Joelle |last3=Alexander |first3=Bryan |date=September 22, 2026 |title=''Dancing with the Stars'' live updates: Viral Hits Night ends with elimination, 1 chipped tooth |url=https://www.usatoday.com/story/entertainment/tv-streaming/2026/09/22/dancing-with-the-stars-live-updates-viral-hits-night-week-2--live/91894195007/ |access-date=September 22, 2026 |website=[[USA Today]] |language=en-US|archive-url=https://web.archive.org/web/20260923142227/https://www.usatoday.com/story/entertainment/tv-streaming/2026/09/22/dancing-with-the-stars-live-updates-viral-hits-night-week-2--live/91894195007/|archive-date=September 23, 2026|url-status=live}}</ref>
+|-
+! scope="row"| {{sortname|Taylor|Hanson}}
+| [[Hanson (band)|Hanson]] frontman
+| {{sortname|Britt|Stewart}}
+| style="background:#f4c7b8;"|{{nowrap|Eliminated 4th}}<br />{{small|on September 29, 2026}}
+| <ref>{{Cite web |last=DeGrazia |first=Leah |date=September 29, 2026 |title=''Dancing With the Stars'' Eliminates 4th Celebrity Contestant Despite Giving "Best" Performance |url=https://www.eonline.com/news/1436462/dancing-with-the-stars-taylor-hanson-eliminated-from-season-35 |url-status=live |archive-url=https://web.archive.org/web/20260930124515/https://www.eonline.com/news/1436462/dancing-with-the-stars-taylor-hanson-eliminated-from-season-35 |archive-date=September 30, 2026 |access-date=September 30, 2026 |website=[[E! News]]}}</ref>
+|-
+! scope="row"| {{sortname|Tatyana|Ali}}
+| Television actress & singer
+| {{sortname|Jan|Ravnik}}
+| rowspan="13" bgcolor="lightblue"|Participating
+| 
+|-
+! scope="row"| {{sortname|Tyler|Cameron}}
+| ''[[The Bachelorette (American TV series)|The Bachelorette]]'' runner-up
+| {{sortname|Sharna|Burgess}}
+| 
+|-
+! scope="row"| {{sortname|Jenna|Dewan}}
+| Actress & dancer
+| {{sortname|Val|Chmerkovskiy|Valentin Chmerkovskiy}}
+| 
+|-
+! scope="row"| {{sortname|Ezra|Frech}}
+| [[Paralympic Games|Paralympic]] track & field athlete
+| {{sortname|Daniella|Karagach}}
+| 
+|-
+! scope="row"| {{sortname|Amber|Glenn}}
+| [[Winter Olympic Games|Olympic]] figure skater
+| {{sortname|Pasha|Pashkov}}
+| 
+|-
+! scope="row"| {{sortname|Maura|Higgins}}
+| Television personality & model
+| {{sortname|Mark|Ballas}}
+| 
+|-
+! scope="row"| {{sortname|Ciara|Miller}}
+| ''[[Summer House (2017 TV series)|Summer House]]'' cast member
+| {{sortname|Brandon|Armstrong|Brandon Armstrong (dancer)}}
+| 
+|-
+! scope="row"| {{sortname|Jackson|Olson}}
+| [[Savannah Bananas]] second baseman
+| {{sortname|Emma|Slater}}
+| 
+|-
+! scope="row"| {{sortname|Guillermo|Rodriguez|Guillermo Rodriguez (comedian)}}
+| ''[[Jimmy Kimmel Live!]]'' sidekick
+| {{sortname|Witney|Carson}}
+| 
+|-
+! scope="row"| {{sortname|Harry|Shum Jr.}}
+| Actor & dancer
+| {{sortname|Jenna|Johnson|Jenna Johnson (dancer)}}
+| 
+|-
+! scope="row"| {{sortname|Julia|Stiles}}
+| Actress & director
+| {{sortname|Ezra|Sosa}}
+| 
+|-
+! scope="row" | {{sortname|Connor|Wood|Connor Wood (comedian)}}
+| Stand-up comedian & podcaster
+| {{sortname|Rylee|Arnold}}
+| 
+|}
+
+=== Hosts and judges ===
+The hosts and judges for the season were announced on ''Good Morning America'' on September 1, 2026, one day before the cast reveal.<ref>{{Cite press release |title=Programming Highlights for ABC News' ''Good Morning America'' and ''GMA3,'' Aug. 31 – Sept. 5 |date=August 28, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abcnews/pressrelease/programming-highlights-for-abc-news-good-morning-america-and-gma3-aug-31-sept-5/ |via=[[Disney General Entertainment Content Press]] |access-date=August 29, 2026 |archive-url=https://web.archive.org/web/20260829135941/https://www.detpress.com/abcnews/pressrelease/programming-highlights-for-abc-news-good-morning-america-and-gma3-aug-31-sept-5/ |archive-date=August 29, 2026}}</ref> [[Alfonso Ribeiro]] and [[Julianne Hough]] returned as hosts,<ref name="S35HostsJudges">{{Cite web |last=Nardino |first=Meredith |date=September 1, 2026 |title=''Dancing With the Stars'' Season 35 Judges and Hosts Revealed Before Premiere: Who’s Returning? |url=https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-season-35-judges-and-hosts-revealed/ |url-status=live |archive-url=https://ghostarchive.org/archive/SGT7w |archive-date=September 1, 2026 |access-date=September 1, 2026 |website=[[Us Weekly]] |language=en-US}}</ref> while [[Derek Hough]], [[Carrie Ann Inaba]], and [[Bruno Tonioli]] returned as judges.<ref name="S35HostsJudges" /> 
+
+The second season of the ''Dancing with the Stars'' podcast, hosted by season thirty-four quarter-finalist [[Andy Richter]], launched on September 10.<ref name="S35PodcastParty">{{Cite press release |title=''Dancing with the Stars'' is Back in the Ballroom with an All-New Cast |date=September 1, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-is-back-in-the-ballroom-with-an-all-new-celebrity-cast-1/ |via=[[Disney General Entertainment Content Press]] |access-date=September 2, 2026|archive-url=https://web.archive.org/web/20260902132619/https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-is-back-in-the-ballroom-with-an-all-new-celebrity-cast-1/|archive-date=September 2, 2026}}</ref> He revealed the majority of the season's themes during the second episode,<ref name="S35Themes">{{Cite news |last=Cohn |first=Paulette |date=September 18, 2026 |title=''Dancing with the Stars'' Themes for Season 35 Revealed |url=https://parade.com/tv/dancing-with-the-stars-season-35-themes-revealed |url-status=live |archive-url=https://web.archive.org/web/20260918195908/https://parade.com/tv/dancing-with-the-stars-season-35-themes-revealed |archive-date=September 18, 2026 |access-date=September 18, 2026 |work=[[Parade (magazine)|Parade]]}}</ref> and shared the songs and dance styles for each week.<ref name="S&D">Season 35 song and dance styles:
+*{{Cite web |last=Grebenyuk |first=Yana |date=September 10, 2026 |title=''Dancing With the Stars'' Season 35 Premiere Songs and Dances Revealed After Surprise 2-Night Twist |url=https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-season-35-premiere-songs-revealed/ |url-status=live |archive-url=https://web.archive.org/web/20260910203233/https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-season-35-premiere-songs-revealed/ |archive-date=September 10, 2026 |access-date=September 10, 2026 |website=[[Us Weekly]] |language=en-US}}
+*{{Cite web |last=Grebenyuk |first=Yana |date=September 18, 2026 |title=''Dancing With the Stars'' Season 35 Viral Hits Night Songs and Dances Revealed Before Week 2 |url=https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-season-35-viral-hits-songs-revealed/ |url-status=live |archive-url=https://web.archive.org/web/20260919033920/https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-season-35-viral-hits-songs-revealed/ |archive-date=September 19, 2026 |access-date=September 18, 2026 |website=[[Us Weekly]] |language=en-US}}
+*{{Cite news |last=Stivale |first=Shelby |date=September 24, 2026 |title=''Dancing With the Stars'' season 35 week 3 songs revealed: Which Yacht Rock hits made the cut? |url=https://ew.com/dancing-with-the-stars-season-35-week-3-yacht-rock-songs-dances-revealed-12137120 |url-status=live |archive-url=https://megalodon.jp/2026-0925-0407-07/https://ew.com:443/dancing-with-the-stars-season-35-week-3-yacht-rock-songs-dances-revealed-12137120 |archive-date=September 25, 2026 |access-date=September 24, 2026 |work=[[Entertainment Weekly]]}}
+*{{Cite news |last=Cohn |first=Paulette |date=October 1, 2026 |title=Every Song and Dance for ''DWTS'' Mariah Carey Night — From "Vision of Love" to "Fantasy" |url=https://parade.com/tv/dancing-with-the-stars-season-35-2026-songs-music-dances-week-4-mariah-carey-night |url-status=live |archive-url=https://web.archive.org/web/20261001173005/https://parade.com/tv/dancing-with-the-stars-season-35-2026-songs-music-dances-week-4-mariah-carey-night |archive-date=October 1, 2026 |access-date=October 1, 2026 |work=[[Parade (magazine)|Parade]]}}
+</ref> An official ''Dancing with the Stars'' [[aftershow]], hosted by season thirty-four champion [[Robert Irwin]], aired live immediately after the second night premiere episode on September 16.<ref name="S35PodcastParty" /> Richter did not reveal the theme for the fifth week of competition;<ref name="S35Themes" /> Super Bowl Night was announced on ''Good Morning America'' on September 30.<ref name="Week5THR">{{Cite web |last=Franklin |first=McKinley |date=September 30, 2026 |title=''Dancing With the Stars'' Sets Super Bowl Night for Oct. 13 |url=https://www.hollywoodreporter.com/tv/tv-news/dancing-with-the-stars-super-bowl-night-october-13-1236716710/ |access-date=September 30, 2026 |website=[[The Hollywood Reporter]] |language=en-US|archive-url=https://web.archive.org/web/20260930141734/https://www.hollywoodreporter.com/tv/tv-news/dancing-with-the-stars-super-bowl-night-october-13-1236716710/|archive-date=September 30, 2026|url-status=live}}</ref>
+
+=== Dance troupe ===
+[[Kamri Peterson]], a former pro on ''[[Dancing with the Stars: Juniors]]'', was announced as a first-time troupe member on August 2, 2026, during the series' inaugural [[Dancing with the Stars (American TV series)#Fan convention|fan convention]].<ref>{{Cite web |last=Garner |first=Glenn |last2=Tapp |first2=Tom |date=August 2, 2026 |title=''Dancing with the Stars'': ''DWTS: Juniors'' Alum Kamri Peterson Joins The Season 35 Troupe |url=https://deadline.com/2026/08/dancing-with-the-stars-kamri-peterson-pro-1237015588/ |url-status=live |access-date=August 3, 2026 |website=[[Deadline Hollywood]] |language=en-US|archive-url=https://web.archive.org/web/20260802234650/https://deadline.com/2026/08/dancing-with-the-stars-kamri-peterson-pro-1237015588/|archive-date=August 2, 2026}}</ref> Jaxon Willard, Carter Williams, and Onye Stevenson were announced as second-year troupe members on September 4.<ref>{{Cite web |last=Siwak |first=Miranda |date=September 5, 2026 |title=''Dancing With the Stars'' Season 35 Troupe Revealed: Who Is Returning to the Ballroom? |url=https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-troupe-revealed-for-season-35/ |url-status=live |archive-url=https://web.archive.org/web/20260905151706/https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-troupe-revealed-for-season-35/ |archive-date=September 5, 2026 |access-date=September 5, 2026 |website=[[Us Weekly]] |language=en-US}}</ref>
+
+== Episodes ==
+<onlyinclude>{{#invoke:Episode table|main|dontclose=y
+|background = #98C7F7
+|overall    = 5
+|season     = 6
+|title      = 40
+|titleR     = <ref name="The Futon Critic">{{cite web|url=http://www.thefutoncritic.com/showatch/dancing-with-the-stars/listings |title=''Dancing with the Stars'' Episode Listings|website=[[The Futon Critic]]}}</ref>
+|aux1       = 10
+|airdate    = 1r
+|country    = U.S.
+|viewers    = 10
+|viewersR   = 
+|aux1T      = Rating<br />(18–49)
+|aux1R      = 
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 515
+| EpisodeNumber2  = 1
+| Title           = Premiere: Night One
+| OriginalAirDate = {{Start date|2026|9|15}}
+| Aux1            = 1.44<ref name="W1N1Ratings">{{Cite press release |title=''Dancing with the Stars'' Leaps Back Into the Ballroom as Tuesday’s No. 1 Show, Delivering Nearly 7 Million Total Viewers — Scores Show’s Biggest Season Premiere in 6 Years |date=September 16, 2026 |publisher=[[American Broadcasting Company]] |url=https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-leaps-back-into-the-ballroom-as-tuesdays-no-1-show-delivering-nearly-7-million-total-viewers-scores-shows-biggest-season-premiere-1/ |via=[[Disney General Entertainment Content Press]] |access-date=September 29, 2026 |archive-url=https://web.archive.org/web/20260929135709/https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-leaps-back-into-the-ballroom-as-tuesdays-no-1-show-delivering-nearly-7-million-total-viewers-scores-shows-biggest-season-premiere-1/ |archive-date=September 29, 2026}}</ref>
+| Viewers         = 6.77<ref name="W1N1Ratings" />
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 516
+| EpisodeNumber2  = 2
+| Title           = Premiere: Night Two
+| OriginalAirDate = {{Start date|2026|9|16}}
+| Aux1            = 1.32<ref name="W1N2Ratings">{{Cite press release |title=''Dancing with the Stars'' Season 35 ‘Two-Night Premiere: Night 2’ Swings to 6.44 Million Total Viewers as the Ladies Take Their Turn in the Ballroom |date=September 23, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-season-35-two-night-premiere-night-2-swings-to-6-44-million-total-viewers-as-the-ladies-take-their-turn-in-the-ballroom/ |via=[[Disney General Entertainment Content Press]] |access-date=September 29, 2026 |archive-url=https://web.archive.org/web/20260929144337/https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-season-35-two-night-premiere-night-2-swings-to-6-44-million-total-viewers-as-the-ladies-take-their-turn-in-the-ballroom/ |archive-date=September 29, 2026}}</ref>
+| Viewers         = 6.44<ref name="W1N2Ratings" />
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 517
+| EpisodeNumber2  = 3
+| Title           = Viral Hits Night
+| OriginalAirDate = {{Start date|2026|9|22}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 518
+| EpisodeNumber2  = 4
+| Title           = Yacht Rock Night
+| OriginalAirDate = {{Start date|2026|9|29}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 519
+| EpisodeNumber2  = 5
+| Title           = Mariah Carey Night
+| OriginalAirDate = {{Start date|2026|10|6}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 520
+| EpisodeNumber2  = 6
+| Title           = Super Bowl Night
+| OriginalAirDate = {{Start date|2026|10|13}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 521
+| EpisodeNumber2  = 7
+| Title           = Dedication Night
+| OriginalAirDate = {{Start date|2026|10|20}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 522
+| EpisodeNumber2  = 8
+| Title           = Horror Movie Night
+| OriginalAirDate = {{Start date|2026|10|27}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 523
+| EpisodeNumber2  = 9
+| Title           = Disney Night
+| OriginalAirDate = {{Start date|2026|11|2}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 524
+| EpisodeNumber2  = 10
+| Title           = Grammy Night
+| OriginalAirDate = {{Start date|2026|11|10}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 525
+| EpisodeNumber2  = 11
+| Title           = Semi-Finals
+| OriginalAirDate = {{Start date|2026|11|17}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| EpisodeNumber   = 526
+| EpisodeNumber2  = 12
+| Title           = Finale
+| OriginalAirDate = {{Start date|2026|11|24}}
+| Aux1            = 
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{End|Episode table|html=y}}</onlyinclude>
+
+=== Special ===
+<onlyinclude>{{#invoke:Episode table|main|dontclose=y
+|background = #98C7F7
+|title      = 40
+|titleR     = <ref name="The Futon Critic" />
+|aux1       = 10
+|airdate    = 1r
+|country    = U.S.
+|viewers    = 10
+|viewersR   = 
+|aux1T      = Rating<br />(18–49)
+|aux1R= 
+}}
+{{#invoke:Episode list|sublist|Dancing with the Stars (American TV series) season 35
+| Title           = ''DWTS'' After Party
+| OriginalAirDate = {{Start date|2026|9|16}}
+| Aux1            = 0.48<ref name="W1N2Ratings" />
+| Viewers         = 
+| ShortSummary    = 
+| LineColor       = 98C7F7
+}}
+{{End|Episode table|html=y}}</onlyinclude>
+
+== Scoring chart ==
+The highest score each week is indicated in {{fontcolor|#004600|'''bold green'''}} with a dagger ({{dagger}}), while the lowest score each week is indicated in {{fontcolor|#800000|''italicized red''}} with a double-dagger ({{double-dagger}}).
+
+'''Color key:'''
+{{columns-list|colwidth=20em|
+{{legend|gold|Winners}}
+{{legend|silver|Runners-up}}
+{{legend|tan|Third place}}
+{{legend|#d1c571|Fourth place}}
+{{legend|E6E6FA|Fifth place}}
+{{legend|#f4c7b8|Eliminated}}
+}}
+{| class="wikitable sortable" style="text-align:center
+|+''Dancing with the Stars'' (season 35) - Weekly scores
+! rowspan="2" scope="col" | Couple
+! rowspan="2" scope="col" | {{Abbr|Pl.|Place}}
+! colspan="12" scope="col" | Week
+|-
+! scope="col" | [[#Week 1: Premiere|1]]
+! scope="col" | [[#Week 2: Viral Hits Night|2]]
+! scope="col" | [[#Week 3: Yacht Rock Night|3]]
+! scope="col" | [[#Week 4: Mariah Carey Night|4]]
+! scope="col" | 5
+! scope="col" | 6
+! scope="col" | 7
+! scope="col" | 8
+! scope="col" | 9
+! scope="col" | 10
+! scope="col" | 11
+|-
+! scope="row" | Amber & Pasha
+| rowspan="12" {{TBA}}
+| 18
+| {{fontcolor|#004600|'''21'''}}{{dagger|alt=This was the highest score of the night.}}
+| {{fontcolor|#004600|'''24'''}}{{dagger|alt=This was the highest score of the night.}}
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Ciara & Brandon 
+| 15
+| 18
+| 18
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Connor & Rylee{{efn|name=PremiereRule|During the season premiere, viewers were told to include the first letter of [[Connor Wood (comedian)|Connor Wood]] and [[The Secret Lives of Mormon Wives|Conner Leavitt]]'s last names when they were voting via [[text messaging]]. The rule was abolished after Leavitt was eliminated.<ref name="PremiereRule">{{Cite web |last=Rahbar |first=Sarah |date=September 15, 2026 |title=''Dancing With the Stars'' Season 35 Reveals New Voting Rules During Premiere Episode |url=https://www.eonline.com/news/1436126/dancing-with-the-stars-season-35-voting-error-new-rules-for-premiere |url-status=live |archive-url=https://web.archive.org/web/20260916023739/https://www.eonline.com/news/1436126/dancing-with-the-stars-season-35-voting-error-new-rules-for-premiere |archive-date=September 16, 2026 |access-date=September 22, 2026 |website=[[E! News]]}}</ref>}}
+| 16
+| 15
+| 20
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Ezra & Daniella
+| 20
+| {{fontcolor|#004600|'''21'''}}{{dagger|alt=This was the highest score of the night.}}
+| 21
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Guillermo & Witney 
+| {{fontcolor|#800000|''10''}}{{double-dagger|alt=This was the lowest score of the week.}}
+| {{fontcolor|#800000|''12''}}{{double-dagger|alt=This was the lowest score of the week.}}
+| {{fontcolor|#800000|''15''}}{{double-dagger|alt=This was the lowest score of the week.}}
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Harry & Jenna 
+| {{fontcolor|#004600|'''21'''}}{{dagger|alt=This was the highest score of the night.}}
+| 18
+| {{fontcolor|#004600|'''24'''}}{{dagger|alt=This was the highest score of the night.}}
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Jackson & Emma 
+| 15
+| 18
+| 18
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Jenna & Val
+| 19
+| {{fontcolor|#004600|'''21'''}}{{dagger|alt=This was the highest score of the night.}}
+| 21
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Julia & Ezra 
+| 18
+| 16
+| 19
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Maura & Mark
+| {{fontcolor|#004600|'''21'''}}{{dagger|alt=This was the highest score of the night.}}
+| 19
+| 22
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Tatyana & Jan
+| 12
+| 18
+| 21
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Tyler & Sharna 
+| 17
+| 16
+| 17
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! scope="row" | Taylor & Britt
+| 13th
+| 16
+| 15
+| bgcolor="f4c7b8" | 18{{efn|name=Elim|This couple was eliminated.}}
+| colspan="9" bgcolor="darkgrey" |
+|-
+! scope="row" | Giada & Alan 
+| 14th
+| 16
+| bgcolor="f4c7b8" | {{fontcolor|#800000|''12''}}{{double-dagger|alt=This was the lowest score of the week.}}{{efn|name=Elim|This couple was eliminated.}}
+| colspan="9" bgcolor="darkgrey" |
+|-
+! scope="row" | {{nowrap|Sarah Jane}} & Hailey 
+| 15th
+| bgcolor="f4c7b8" | 14{{efn|name=Elim|This couple was eliminated.}}
+| colspan="10" bgcolor="darkgrey" |
+|-
+! scope="row" | Conner L. & Adele{{efn|name=PremiereRule}}
+| 16th
+| bgcolor="f4c7b8" | 12{{efn|name=Elim|This couple was eliminated.}}
+| colspan="10" bgcolor="darkgrey" |
+|}
+;Notes
+{{notelist}}
+
+== Weekly scores ==
+''Individual judges' scores in the charts below (given in parentheses) are listed in this order from left to right: [[Carrie Ann Inaba]], [[Derek Hough]], [[Bruno Tonioli]].''
+
+=== Week 1: Premiere ===
+For the two-night season premiere, each couple performed one unlearned dance to a song that topped one of ''[[Billboard (magazine)|Billboard]]'' magazine's [[Billboard charts|music charts]] during the year each celebrity was born.<ref name="Week1PR">{{Cite press release |title=The Ballroom is Back! ''Dancing with the Stars'' Celebrates Season 35 with a Special Two-Night Premiere on ABC and Disney+ |date=September 10, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/the-ballroom-is-back-dancing-with-the-stars-celebrates-season-35-with-a-special-two-night-premiere-on-abc-and-disney/ |via=[[Disney General Entertainment Content Press]] |access-date=September 10, 2026 |archive-url=https://web.archive.org/web/20260910183627/https://www.detpress.com/abc/pressrelease/the-ballroom-is-back-dancing-with-the-stars-celebrates-season-35-with-a-special-two-night-premiere-on-abc-and-disney/ |archive-date=September 10, 2026}}</ref> The male celebrities performed on the first night and the female celebrities performed on the second night.<ref>{{Cite news |last=Stivale |first=Shelby |date=September 10, 2026 |title=''Dancing With the Stars'' season 35 premiere to end with elimination twist for the first time since 2018 |url=https://ew.com/dancing-with-the-stars-reveals-season-35-premiere-week-elimination-twist-12114436 |url-status=live |archive-url=https://web.archive.org/web/20260910184852/https://ew.com/dancing-with-the-stars-reveals-season-35-premiere-week-elimination-twist-12114436 |archive-date=September 10, 2026 |access-date=September 10, 2026 |work=[[Entertainment Weekly]]}}</ref> One couple was eliminated at the end of each night.<ref>{{Cite web |last=Siwak |first=Miranda |date=September 10, 2026 |title=''Dancing With the Stars'' Season 35 Will Feature Eliminations on Each Night of Premiere |url=https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-premiere-will-end-with-2-eliminations/ |access-date=September 10, 2026 |website=[[Us Weekly]] |language=en-US|archive-url=https://web.archive.org/web/20260910122338/https://www.usmagazine.com/entertainment/news/dancing-with-the-stars-premiere-will-end-with-2-eliminations/|archive-date=September 10, 2026|url-status=live}}</ref>
+
+;Night 1 (Men)
+
+The opening number, choreographed by [[Jamal Sims]], was set to "[[Dancing On My Own]]" by [[Robyn]].<ref name="Week1MenPeople">{{Cite news |last=Kratofil |first=Colleen |date=September 15, 2026 |title=''Dancing with the Stars'' Full Recap: Find Out Who Got Sent Home on Premiere Night After Voting Glitches Rocked the Ballroom |url=https://people.com/dancing-with-the-stars-live-updates-season-35-premiere-night-1-12123487 |access-date=September 15, 2026 |work=[[People (magazine)|People]]|archive-url=https://megalodon.jp/2026-0919-0523-13/https://people.com:443/dancing-with-the-stars-live-updates-season-35-premiere-night-1-12123487|archive-date=September 19, 2026|url-status=live}}</ref> The troupe performed a [[Bumper (broadcasting)|bumper]] to "[[Bangaranga]]" by [[Dara (Bulgarian singer)|Dara]].<ref name="Week1MenPeople" /> Due to technical difficulties, online voting for the night was thrown out and only votes cast via [[text messaging]] were accepted.<ref>{{Cite web |last=Longeretta |first=Emily |date=September 15, 2026 |title=''Dancing With the Stars'' Season 35 Kicks Off With Voting Glitch During Premiere |url=https://variety.com/2026/tv/news/dancing-with-the-stars-voting-glitch-season-35-premiere-1236863608/ |access-date=September 15, 2026 |website=[[Variety (magazine)|Variety]] |language=en-US|archive-url=https://web.archive.org/web/20260916092239/https://variety.com/2026/tv/news/dancing-with-the-stars-voting-glitch-season-35-premiere-1236863608/|archive-date=September 16, 2026|url-status=live}}</ref> The female celebrities and their professional partners performed a routine to "[[The Romantic (album)|Cha Cha Cha]]" by [[Bruno Mars]], choreographed by [[Brandon Armstrong (dancer)|Brandon Armstrong]] and [[Jan Ravnik]].<ref name="Week1MenPeople" /> [[Adele Zaikman]], Allen Genkin, Erik Linder, and Selena Hamilton from ''[[Dancing with the Stars: The Next Pro]]'' performed a [[Salsa (dance)|salsa]] bumper to "[[Dai Dai]]" by [[Shakira]] and [[Burna Boy]].<ref name="Week1MenPeople" /> Inspired by [[Paris Baguette]], one of the season's sponsors, co-host [[Julianne Hough]] and Tessandra Chavez choreographed a number to "[[I Love Paris]]" by [[Tatiana Eva-Marie]] and the Avalon Band; Hough additionally performed the routine with the pros.<ref name="Week1MenPeople" />
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 1 (Night 1)
+|-
+! scope="col" | Couple
+! scope="col" | Scores<ref name="Week1Men">{{cite web |last=Montgomery |first=Daniel |date=September 15, 2026 |title=''Dancing With the Stars'' recap: Harry Shum Jr. sends pulses racing in Night 1 of Season 35 premiere event |url=https://www.goldderby.com/reality-tv/2026/dancing-with-the-stars-recap-season-35-premiere-men-perform/ |access-date=September 15, 2026 |website=[[Gold Derby]] |publisher=[[Penske Media Corporation]]|archive-url=https://megalodon.jp/2026-0919-0521-50/https://www.goldderby.com:443/reality-tv/2026/dancing-with-the-stars-recap-season-35-premiere-men-perform/|archive-date=September 19, 2026|url-status=live}}</ref>
+! scope="col" class="unsortable"| Dance<ref name="Week1PR" />
+! scope="col" class="unsortable"| Music<ref name="Week1PR" />
+! scope="col" class="unsortable"| Result
+|-
+! scope="row" | Jackson & Emma
+| 15 (5, 5, 5)
+| Cha-cha-cha
+| "[[Wannabe]]" — [[Spice Girls]]
+| Safe
+|-
+! scope="row" | Tyler & Sharna
+| 17 (6, 5, 6)
+| Tango
+| "[[Are You Gonna Go My Way (song)|Are You Gonna Go My Way]]" — [[Lenny Kravitz]]
+| Safe
+|-
+! scope="row" | Conner L. & Adele{{efn|name=PremiereRule|During this episode, viewers were told to include the first letter of [[Connor Wood (comedian)|Connor Wood]] and [[The Secret Lives of Mormon Wives|Conner Leavitt]]'s last names when they were voting via [[text messaging]]. The rule was abolished after Leavitt was eliminated.<ref name="PremiereRule" />}}
+| 12 (4, 4, 4)
+| Salsa
+| "[[Whoomp! (There It Is)]]" — [[Tag Team (duo)|Tag Team]]
+| bgcolor= f4c7b8 | Eliminated
+|-
+! scope="row" | Guillermo & Witney
+| 10 (4, 3, 3)
+| Cha-cha-cha
+| "[[Mr. Big Stuff]]" — [[Jean Knight]]
+| Safe
+|-
+! scope="row" | Ezra & Daniella
+| 20 (7, 6, 7)
+| Tango
+| "[[Since U Been Gone]]" — [[Kelly Clarkson]]
+| Safe
+|-
+! scope="row" | {{nowrap|Connor W.}} & Rylee{{efn|name=PremiereRule}}
+| 16 (6, 5, 5)
+| Cha-cha-cha
+| "[[I Like It, I Love It]]" — [[Tim McGraw]]
+| Safe
+|-
+! scope="row" | Taylor & Britt
+| 16 (6, 5, 5)
+| Quickstep
+| "[[Tell Her About It]]" — [[Billy Joel]]
+| Safe
+|-
+! scope="row" | Harry & Jenna
+| 21 (7, 7, 7)
+| Cha-cha-cha
+| "[[Let's Groove]]" — [[Earth, Wind & Fire]]
+| Safe
+|}
+;Notes
+{{notelist}}
+
+;Night 2 (Women)
+
+The opening number, choreographed by [[Mandy Moore (choreographer)|Mandy Moore]], was set to "[[Love Sensation (Madonna song)|Love Sensation]]" by [[Madonna]].<ref name="Week1WomenPeople">{{Cite news |last=Kratofil |first=Colleen |date=September 16, 2026 |title=''Dancing with the Stars'' Full Recap: 1 Surprising Star Beats Frontrunner Jenna Dewan’s Score While Another Makes Carrie Ann Cry |url=https://people.com/dancing-with-the-stars-live-updates-ladies-hit-the-ballroom-premiere-night-2-12124892 |access-date=September 16, 2026 |work=[[People (magazine)|People]]|archive-url=https://megalodon.jp/2026-0919-0528-49/https://people.com:443/dancing-with-the-stars-live-updates-ladies-hit-the-ballroom-premiere-night-2-12124892|archive-date=September 19, 2026|url-status=live}}</ref> The troupe performed a number to "[[Danceteria (song)|Danceteria]]" by Madonna and a [[tango]] bumper to "[[Pinky Up]]" by [[Katseye]].<ref name="Week1WomenPeople" /> [[BC Jean]], singer-songwriter and wife of [[Mark Ballas]], performed "[[Black Velvet (song)|Black Velvet]]" for [[Maura Higgins]]'s [[foxtrot]].<ref>{{Cite web |last=DeGrazia |first=Leah |date=September 16, 2026 |title=''DWTS''{{'}} Mark Ballas Reveals How Wife BC Jean Saved Maura Higgins Routine Last-Minute |url=https://www.eonline.com/news/1436171/mark-ballas-wife-bc-jean-sings-song-for-dwts-performance |access-date=September 16, 2026 |website=[[E! News]]|archive-url=https://web.archive.org/web/20260917061920/https://www.eonline.com/news/1436171/mark-ballas-wife-bc-jean-sings-song-for-dwts-performance|archive-date=September 17, 2026|url-status=live}}</ref> Inspired by [[Google Gemini]], one of the season's sponsors, judge [[Derek Hough]] and Tessandra Chavez choreographed a number to "Asturias Variations" by [[Isaac Albéniz]] and "[[11:11 (Rodrigo y Gabriela album)|Hanuman]]" by [[Rodrigo y Gabriela]].<ref name="Week1WomenPeople" /> Hough additionally performed the routine with his wife [[Hayley Erbert]] and dancers who were featured in their Symphony of Dance stage tour.<ref name="Week1WomenPeople" />
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 1 (Night 2)
+|-
+! scope="col" | Couple
+! scope="col" | Scores<ref name="Week1Women">{{Cite web |last=Montgomery |first=Daniel |date=September 16, 2026 |title=''Dancing With the Stars'' recap: Night 2 of Season 35 premiere event is ladies’ night |url=https://www.goldderby.com/reality-tv/2026/dancing-with-the-stars-recap-season-35-premiere-night-2-women/ |access-date=September 16, 2026 |website=[[Gold Derby]] |publisher=[[Penske Media Corporation]] |language=en-US|archive-url=https://megalodon.jp/2026-0919-0532-23/https://www.goldderby.com:443/reality-tv/2026/dancing-with-the-stars-recap-season-35-premiere-night-2-women/|archive-date=September 19, 2026|url-status=live}}</ref>
+! scope="col" class="unsortable"| Dance<ref name="Week1PR" />
+! scope="col" class="unsortable"| Music<ref name="Week1PR" />
+! scope="col" class="unsortable"| Result
+|-
+! scope="row" | Tatyana & Jan
+| 12 (4, 4, 4)
+| Jive
+| "[[Knock on Wood (Eddie Floyd song)|Knock on Wood]]" — [[Amii Stewart]]
+| Safe
+|-
+! scope="row" | Amber & Pasha
+| 18 (6, 6, 6)
+| Cha-cha-cha
+| "[[Smooth (Santana song)|Smooth]]" — [[Santana (band)|Santana]] feat. [[Rob Thomas (musician)|Rob Thomas]]
+| Safe
+|-
+! scope="row" | Ciara & Brandon
+| 15 (5, 5, 5)
+| Foxtrot
+| "[[Exhale (Shoop Shoop)]]" — [[Whitney Houston]]
+| Safe
+|-
+! scope="row" | Giada & Alan
+| 16 (6, 5, 5)
+| Tango
+| "[[Venus (Shocking Blue song)|Venus]]" — [[Shocking Blue]]
+| Safe
+|-
+! scope="row" | Julia & Ezra
+| 18 (6, 6, 6)
+| Quickstep
+| "[[9 to 5 (Dolly Parton song)|9 to 5]]" — [[Dolly Parton]]
+| Safe
+|-
+! scope="row" | Maura & Mark
+| 21 (7, 7, 7)
+| Foxtrot
+| "[[Black Velvet (song)|Black Velvet]]" — [[Alannah Myles]]
+| Safe
+|-
+! scope="row" | {{nowrap|Sarah Jane}} & Hailey
+| 14 (5, 4, 5)
+| Jive
+| "[[Sk8er Boi]]" — [[Avril Lavigne]]
+| bgcolor= f4c7b8 | Eliminated
+|-
+! scope="row" | Jenna & Val
+| 19 (6, 6, 7)
+| Tango
+| "[[Call Me (Blondie song)|Call Me]]" — [[Blondie (band)|Blondie]]
+| Safe
+|}
+
+=== Week 2: Viral Hits Night ===
+Each couple performed one unlearned dance to a song that went [[Viral phenomenon|viral]] on [[social media]].<ref name="Week2PR">{{Cite press release |title=The Ballroom Goes Viral! ''Dancing with the Stars'' Celebrates the Biggest Hits on 'Viral Hits Night' on ABC and Disney+ |date=September 18, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/the-ballroom-goes-viral-dancing-with-the-stars-celebrates-the-biggest-hits-on-viral-hits-night-on-abc-and-disney/ |via=[[Disney General Entertainment Content Press]] |access-date=September 18, 2026 |archive-url=https://web.archive.org/web/20260918210355/https://www.detpress.com/abc/pressrelease/the-ballroom-goes-viral-dancing-with-the-stars-celebrates-the-biggest-hits-on-viral-hits-night-on-abc-and-disney/ |archive-date=September 18, 2026}}</ref> The opening number, choreographed and performed by the troupe, was set to "[[Lush Life (Zara Larsson song)|Lush Life]]" by [[Zara Larsson]].<ref name="Week2People">{{Cite news |last=Kratofil |first=Colleen |date=September 22, 2026 |title=''Dancing with the Stars'' Recap: 1 Star Gets Sent Home on Viral Hits Night After Breaking Down in Tears at Practice |url=https://people.com/dancing-with-the-stars-live-updates-viral-hits-night-12135518 |access-date=September 22, 2026 |work=[[People (magazine)|People]]|archive-url=https://megalodon.jp/2026-0923-2324-53/https://people.com:443/dancing-with-the-stars-live-updates-viral-hits-night-12135518|archive-date=September 23, 2026|url-status=live}}</ref> [[Adele Zaikman]] and [[Hailey Bills]] performed a [[Samba (ballroom dance)|samba]] bumper to "[[Mi Chico]]" by DJ Goja.<ref name="Week2People" /> [[Harrison (English musician)|Harrison]] performed his cover of "[[All the Things She Said]]" for [[Amber Glenn]]'s [[tango]].<ref name="Week2People" /> The troupe later performed a tango routine to "[[Talking Body]]" by [[Tove Lo]].<ref name="Week2People" />
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 2
+|-
+! scope="col" | Couple
+! scope="col" | Scores<ref name="Week2Scores">{{Cite web |last=Montgomery |first=Daniel |date=September 22, 2026 |title=''Dancing With the Stars'' recap: Top 14 celebs break the internet on ‘Viral Hits Night’ |url=https://www.goldderby.com/reality-tv/2026/dancing-with-the-stars-season-35-recap-viral-hits-night/ |access-date=September 22, 2026 |website=[[Gold Derby]] |publisher=[[Penske Media Corporation]] |language=en-US|archive-url=https://megalodon.jp/2026-0923-2326-14/https://www.goldderby.com:443/reality-tv/2026/dancing-with-the-stars-season-35-recap-viral-hits-night/|archive-date=September 23, 2026|url-status=live}}</ref>
+! scope="col" class="unsortable"| Dance<ref name="Week2PR" />
+! scope="col" class="unsortable"| Music<ref name="Week2PR" />
+! scope="col" class="unsortable"| Result
+|-
+! scope="row" | Jenna & Val
+| 21 (7, 7, 7) 
+| Jive
+| "[[Animal (Katseye song)|Animal]]" — [[Katseye]]
+| Safe
+|-
+! scope="row" | Ciara & Brandon
+| 18 (6, 6, 6) 
+| Tango
+| "[[No Broke Boys#Disco Lines remix|No Broke Boys]]" — [[Disco Lines]] & [[Tinashe]]
+| Safe
+|-
+! scope="row" | Tyler & Sharna
+| 16 (6, 5, 5)
+| Salsa
+| "[[Girls (The Kid Laroi song)|Girls]]" — [[The Kid Laroi]]
+| Safe
+|-
+! scope="row" | Julia & Ezra
+| 16 (5, 6, 5)
+| Tango
+| "[[The Door (Teddy Swims song)|The Door]]" — [[Teddy Swims]]
+| Safe
+|-
+! scope="row" | Jackson & Emma
+| 18 (6, 6, 6)
+| Foxtrot
+| "[[That's So True]]" — [[Gracie Abrams]]
+| Safe
+|-
+! scope="row" | Giada & Alan
+| 12 (4, 4, 4)
+| Salsa
+| "[[Bella Ciao (Becky G song)|Bella Ciao]]" — [[Becky G]]
+| bgcolor= f4c7b8 | Eliminated
+|-
+! scope="row" | Connor & Rylee
+| 15 (5, 5, 5)
+| Tango
+| "[[12 to 12]]" — [[Sombr]]
+| Safe
+|-
+! scope="row" | Ezra & Daniella
+| 21 (7, 7, 7)
+| Cha-cha-cha
+| "[[Low (Flo Rida song)|Low]]" — [[Flo Rida]]
+| Safe
+|-
+! scope="row" | Tatyana & Jan
+| 18 (6, 6, 6)
+| Foxtrot
+| "[[What Was I Made For?]]" — [[Billie Eilish]]
+| Safe
+|-
+! scope="row" | Amber & Pasha
+| 21 (7, 7, 7)
+| Tango
+| "[[All the Things She Said]]" — [[Harrison (English musician)|Harrison]]
+| Safe
+|-
+! scope="row" | Guillermo & Witney
+| 12 (4, 4, 4)
+| Paso doble
+| "[[Where Have You Been]]" — [[Rihanna]]
+| Safe
+|-
+! scope="row" | Taylor & Britt
+| 15 (5, 5, 5)
+| Cha-cha-cha
+| "[[Cake by the Ocean]]" — [[DNCE]]
+| Safe
+|-
+! scope="row" | Harry & Jenna
+| 18 (6, 6, 6)
+| Viennese waltz
+| "[[Iris (song)|Iris]]" — [[Goo Goo Dolls]]
+| Safe
+|-
+! scope="row" | Maura & Mark
+| 19 (6, 6, 7)
+| Cha-cha-cha
+| "[[September (song)|September]]" — [[Earth, Wind & Fire]]
+| Safe
+|}
+
+=== Week 3: Yacht Rock Night ===
+Each couple performed one unlearned dance to a song that redefined the [[yacht rock]] era.<ref name="Week3Logline">{{Cite press release |title=''Dancing with the Stars'': Yacht Rock Night (9/29) |date=September 24, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-yacht-rock-night-9-29/ |via=[[Disney General Entertainment Content Press]] |access-date=September 28, 2026 |archive-url=https://web.archive.org/web/20260924224735/https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-yacht-rock-night-9-29/ |archive-date=September 24, 2026}}</ref> The opening number, performed by [[Alan Bersten]], [[Dancing with the Stars: Juniors|Hailey Bills]], [[Dancing with the Stars: The Next Pro|Adele Zaikman]] and the troupe, was set to "[[This Is It (Kenny Loggins song)|This Is It]]" by [[Kenny Loggins]].<ref name="Week3People">{{Cite news |last=Kratofil |first=Colleen |date=September 29, 2026 |title=''Dancing with the Stars'' Recap: 1 ‘90s Star Goes Home on Yacht Rock Night as a Leading Couple Draws Blood on the Dance Floor |url=https://people.com/dancing-with-the-stars-live-updates-see-which-pair-gets-sent-home-yacht-rock-week-12148213 |access-date=September 29, 2026 |work=[[People (magazine)|People]]|archive-url=https://megalodon.jp/2026-0930-2137-17/https://people.com:443/dancing-with-the-stars-recap-who-is-sent-home-yacht-rock-week-12148213|archive-date=September 30, 2026|url-status=live}}</ref> Bersten, Bills and Zaikman also performed a routine to "[[Baby Come Back (Player song)|Baby Come Back]]" by [[Player (band)|Player]].<ref name="Week3People" /> The troupe performed a bumper to "[[Love Will Keep Us Together]]" by [[Captain & Tennille]].<ref name="Week3People" />
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 3
+|-
+! scope="col" | Couple
+! scope="col" | Scores<ref name="Week3Scores">{{Cite web |last=Montgomery |first=Daniel |date=September 29, 2026 |title=''Dancing With the Stars'' recap: Guillermo lets it all hang out on ‘Yacht Rock Night’ |url=https://www.goldderby.com/reality-tv/2026/dancing-with-the-stars-season-35-recap-yacht-rock-night/ |access-date=September 29, 2026 |website=[[Gold Derby]] |publisher=[[Penske Media Corporation]] |language=en-US|archive-url=https://megalodon.jp/2026-0930-2138-55/https://www.goldderby.com:443/reality-tv/2026/dancing-with-the-stars-season-35-recap-yacht-rock-night/|archive-date=September 30, 2026|url-status=live}}</ref>
+! scope="col" class="unsortable"| Dance<ref name="Week3Scores" />
+! scope="col" class="unsortable"| Music<ref name="Week3Scores" />
+! scope="col" class="unsortable"| Result
+|-
+! scope="row" | Amber & Pasha
+| 24 (8, 8, 8)
+| Foxtrot
+| "[[Hold the Line]]" — [[Toto (band)|Toto]]
+| Safe
+|-
+! scope="row" | Julia & Ezra
+| 19 (6, 7, 6)
+| Salsa
+| "[[I Can't Go for That (No Can Do)]]" — [[Hall & Oates]]
+| Safe
+|-
+! scope="row" | Guillermo & Witney
+| 15 (5, 5, 5)
+| Foxtrot
+| "[[Escape (The Piña Colada Song)]]" — [[Rupert Holmes]]
+| Safe
+|-
+! scope="row" | Tatyana & Jan
+| 21 (7, 7, 7)
+| Quickstep
+| "[[Maneater (Hall & Oates song)|Maneater]]" — [[Hall & Oates]]
+| Safe
+|-
+! scope="row" | Harry & Jenna
+| 24 (8, 8, 8)
+| Jive
+| "[[You Make My Dreams|You Make My Dreams (Come True)]]" — [[Hall & Oates]]
+| Safe
+|-
+! scope="row" | Taylor & Britt
+| 18 (6, 6, 6)
+| Foxtrot
+| "[[What a Fool Believes#The Doobie Brothers version|What a Fool Believes]]" — [[The Doobie Brothers]]
+| bgcolor= f4c7b8 | Eliminated
+|-
+! scope="row" | Maura & Mark
+| 22 (7, 7, 8)
+| Quickstep
+| "[[Turn Your Love Around]]" — [[George Benson]]
+| Safe
+|-
+! scope="row" | Ciara & Brandon
+| 18 (6, 6, 6)
+| Cha-cha-cha
+| "[[Never Too Much (song)|Never Too Much]]" — [[Luther Vandross]]
+| Safe
+|-
+! scope="row" | Jackson & Emma
+| 18 (6, 6, 6)
+| Paso doble
+| "[[Easy Lover]]" — [[Phillip Bailey]] & [[Phil Collins]]
+| Safe
+|-
+! scope="row" | Connor & Rylee
+| 20 (7, 6, 7)
+| Foxtrot
+| "[[Everywhere (Fleetwood Mac song)|Everywhere]]" — [[Fleetwood Mac]]
+| Safe
+|-
+! scope="row" | Jenna & Val
+| 21 (7, 7, 7)
+| Samba
+| "[[Africa (song)|Africa]]" — [[Toto (band)|Toto]]
+| Safe
+|-
+! scope="row" | Tyler & Sharna
+| 17 (5, 6, 6)
+| Jive
+| "[[Still the One]]" — [[Orleans (band)|Orleans]]
+| Safe
+|-
+! scope="row" | Ezra & Daniella
+| 21 (7, 7, 7)
+| Foxtrot
+| "[[Just the Two of Us (Grover Washington Jr. song)|Just the Two of Us]]" — [[Grover Washington Jr.]] feat. [[Bill Withers]]
+| Safe
+|}
+
+=== Week 4: Mariah Carey Night ===
+Each couple will perform one unlearned dance to songs by [[Mariah Carey]].<ref name="Week4PR">{{Cite press release |title=''Dancing with the Stars'' Hits a High Note on 'Mariah Carey Night' on ABC and Disney+ |date=October 1, 2026 |publisher=[[American Broadcasting Company|ABC]] |url=https://www.detpress.com/abc/pressrelease/dancing-with-the-stars-hits-a-high-note-on-mariah-carey-night-on-abc-and-disney/ |via=[[Disney General Entertainment Content Press]] |access-date=October 1, 2026 |archive-url=https://ghostarchive.org/archive/61VMs |archive-date=October 2, 2026}}</ref> This episode will also feature pro and troupe performances to "[[Heartbreaker (Mariah Carey song)|Heartbreaker]]" (featuring [[Jay-Z]]), "[[Loverboy (Mariah Carey song)|Loverboy]]" and "[[Always Be My Baby]]".<ref name="Week4PR" />
+
+Couples are listed in the order they performed.
+<!-- LEAVE COUPLES LIST AS IS UNTIL EPISODE AIR DATE -->
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 4
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance<ref name="Week4PR" />
+! scope="col" class="unsortable"| [[Mariah Carey singles discography|Mariah Carey music]]<ref name="Week4PR" />
+! scope="col" class="unsortable"| Result
+|-
+! scope="row" | Amber & Pasha
+|
+| Rumba
+| "[[Hero (Mariah Carey song)|Hero]]"
+|
+|-
+! scope="row" | Ciara & Brandon
+|
+| Jazz
+| "[[Emotions (Mariah Carey song)|Emotions]]"
+|
+|-
+! scope="row" | Connor & Rylee
+|
+| Rumba
+| "[[Touch My Body]]"
+|
+|-
+! scope="row" | Ezra & Daniella
+|
+| Rumba
+| "[[Anytime You Need a Friend]]"
+|
+|-
+! scope="row" | Guillermo & Witney
+|
+| Samba
+| "[[Obsessed (Mariah Carey song)|Obsessed]]"
+|
+|-
+! scope="row" | Harry & Jenna
+|
+| Tango
+| "[[It's Like That (Mariah Carey song)|It's Like That]]"
+|
+|-
+! scope="row" | Jackson & Emma
+|
+| Waltz
+| "[[Without You (Mariah Carey recording)|Without You]]"
+|
+|-
+! scope="row" | Jenna & Val
+|
+| Rumba
+| "[[My All]]"
+|
+|-
+! scope="row" | Julia & Ezra
+|
+| Viennese waltz
+| "[[Vision of Love]]"
+|
+|-
+! scope="row" | Maura & Mark
+|
+| Waltz
+| "[[If It's Over]]"
+|
+|-
+! scope="row" | Tatyana & Jan
+|
+| Jazz
+| "[[Fantasy (Mariah Carey song)|Fantasy]]"
+|
+|-
+! scope="row" | Tyler & Sharna
+|
+| Foxtrot
+| "[[Beautiful (Mariah Carey song)|#Beautiful]]" (feat. [[Miguel (singer)|Miguel]])
+|
+|}
+<!--
+=== Week 5: Super Bowl Night ===
+To commemorate [[Super Bowl LXI]], each couple will perform one unlearned dance to songs that were performed in various [[List of Super Bowl halftime shows|Super Bowl halftime shows]].<ref name="Week5THR" />
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 5
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance
+! scope="col" class="unsortable"| Music
+! scope="col" class="unsortable"| Result
+|-
+|}
+
+=== Week 6: Dedication Night ===
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 6
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance
+! scope="col" class="unsortable"| Music
+! scope="col" class="unsortable"| Result
+|-
+|}
+
+=== Week 7: Horror Movie Night ===
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 7
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance
+! scope="col" class="unsortable"| Music
+! scope="col" class="unsortable"| Film
+! scope="col" class="unsortable"| Result
+|-
+|}
+
+=== Week 8: Disney Night ===
+As ABC tweaked their programming to avoid conflicts with the [[2026 United States elections|U.S. midterm elections]], scheduled to be held on November 3, 2026, ''Dancing with the Stars'' moved the air date of an original episode one day earlier.
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 8
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance
+! scope="col" class="unsortable" | Music
+! scope="col" class="unsortable" | [[The Walt Disney Company|Disney]] film
+! scope="col" class="unsortable"| Result
+|-
+|}
+
+=== Week 9: Grammy Night ===
+
+Couples are listed in the order they performed.
+{| class="wikitable sortable" style="text-align:center; width:90%"
+|+''Dancing with the Stars'' (season 35) – Week 9
+|-
+! scope="col" | Couple
+! scope="col" | Scores
+! scope="col" class="unsortable"| Dance
+! scope="col" class="unsortable"| Music
+! scope="col" class="unsortable"| Result
+|-
+|}
+-->
+
+== Dance chart ==
+The couples performed the following each week:
+* Weeks 1–4: One unlearned dance
+
+{| class="wikitable unsortable" style="text-align:center; font-size:85%; line-height:20px"
+|+''Dancing with the Stars'' (season 35) - Dance chart
+! rowspan="2" scope="col" |Couple
+! colspan="11" scope="col" |Week
+|-
+! scope="col" |[[#Week 1: Premiere|1]]
+! scope="col" |[[#Week 2: Viral Hits Night|2]]
+! scope="col' |[[#Week 3: Yacht Rock Night|3]]
+! scope="col' |[[#Week 4: Mariah Carey Night|4]]
+! scope="col' |5
+! scope="col' |6
+! scope="col" |7
+! scope="col" |8
+! scope="col" |9
+! scope="col" |10
+! scope="col" |11 
+|-
+! scope="row" | Amber & Pasha
+| Cha-cha-cha
+| Tango
+| Foxtrot
+| Rumba
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Ciara & Brandon 
+| Foxtrot
+| Tango
+| Cha-cha-cha
+| Jazz
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Connor & Rylee
+| Cha-cha-cha
+| Tango
+| Foxtrot
+| Rumba
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Ezra & Daniella
+| Tango
+| Cha-cha-cha
+| Foxtrot
+| Rumba
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Guillermo & Witney
+| Cha-cha-cha
+| Paso doble
+| Foxtrot
+| Samba
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Harry & Jenna 
+| Cha-cha-cha
+| Viennese waltz
+| Jive
+| Tango
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Jackson & Emma
+| Cha-cha-cha
+| Foxtrot
+| Paso doble
+| Waltz
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Jenna & Val
+| Tango
+| Jive
+| Samba
+| Rumba
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Julia & Ezra
+| Quickstep
+| Tango
+| Salsa
+| Viennese waltz
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Maura & Mark
+| Foxtrot
+| Cha-cha-cha
+| Quickstep
+| Waltz
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Tatyana & Jan
+| Jive
+| Foxtrot
+| Quickstep
+| Jazz
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Tyler & Sharna 
+| Tango
+| Salsa
+| Jive
+| Foxtrot
+|
+|
+|
+|
+|
+|
+|
+|-
+! scope="row" | Taylor & Britt
+| Quickstep
+| Cha-cha-cha
+| Foxtrot
+| colspan="8" rowspan="3" bgcolor="darkgray" |
+|-
+! scope="row" | Giada & Alan
+| Tango
+| Salsa
+| colspan="9" rowspan="3" bgcolor="darkgray" |
+|-
+! scope="row" | Sarah Jane & Hailey 
+| Jive
+| rowspan="2" bgcolor="darkgray" |
+|-
+! scope="row" | Conner L. & Adele
+| Salsa
+|}
+
+== References ==
+{{Reflist}}
+
+{{Dancing with the Stars (United States)}}
+{{italic title|string=Dancing with the Stars}}
+
+[[Category:Dancing with the Stars (American TV series)]]
+[[Category:2026 American television seasons]]

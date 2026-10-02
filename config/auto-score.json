@@ -1,0 +1,15 @@
+{
+  "source": "wikipedia",
+  "wikipediaTitle": "Dancing with the Stars (American TV series) season 35",
+  "permanentJudges": ["Carrie Ann Inaba", "Derek Hough", "Bruno Tonioli"],
+  "judgeScoreRange": [1, 10],
+  "maxScore": 30,
+  "multiDancePolicy": "flag",
+  "requireCompleteWeek": true,
+  "aliases": {},
+  "_notes": {
+    "multiDancePolicy": "What to do when a couple has 2+ judged dances in one week: flag (skip that couple-week and report it; default until Zach decides), average (mean of permanent-judge totals, stays out of 30), sum, first.",
+    "aliases": "Optional overrides: \"<couple label exactly as on Wikipedia>\": \"<coupleId from data/season.json>\". Only needed if automatic first-name matching flags a name.",
+    "excluded": "Guest judge scores, bonus points (marathons, dance-offs) and team-dance tables are never counted."
+  }
+}

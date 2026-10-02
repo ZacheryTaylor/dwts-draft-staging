@@ -1,15 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#FFF0F2">
+<meta name="description" content="Draft the Stars — a Dancing with the Stars fantasy draft: split pro/amateur draft, weekly scoring and live rankings.">
 <title>Draft the Stars</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header class="top"><div><p class="kicker">Dancing with the Stars</p><h1>Draft the Stars</h1><p class="tagline">Draft dancers · track scores · chase the mirrorball</p></div><nav><button data-view="rankings" class="active">Rankings</button><button data-view="draft">Draft</button><button data-view="scores">Scores</button><button data-view="league">League Setup</button></nav></header>
-<main><section id="view-rankings"></section><section id="view-draft" class="hidden"></section><section id="view-scores" class="hidden"></section><section id="view-league" class="hidden"></section></main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <p class="kicker">Dancing with the Stars</p>
+      <h1>Draft the Stars</h1>
+      <p class="tagline">Draft dancers · track scores · chase the mirrorball</p>
+    </div>
+    <nav aria-label="Sections">
+      <button data-view="rankings" class="active"><span aria-hidden="true">✦</span> Rankings</button>
+      <button data-view="draft"><span aria-hidden="true">✧</span> Draft</button>
+      <button data-view="scores"><span aria-hidden="true">♫</span> Scores</button>
+      <button data-view="league"><span aria-hidden="true">⚙</span> League Setup</button>
+    </nav>
+  </div>
+</header>
+<main id="main"><section id="view-rankings" aria-live="polite"></section><section id="view-draft" class="hidden"></section><section id="view-scores" class="hidden"></section><section id="view-league" class="hidden"></section></main>
 <footer>Two copies of each dancer · 4 amateurs + 4 pros per team · snake draft</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/env.js"></script>
+<script src="js/scoring.js"></script>
 <script src="js/app.js"></script>
 </body></html>
