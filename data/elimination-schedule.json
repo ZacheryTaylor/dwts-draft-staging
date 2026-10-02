@@ -1,0 +1,18 @@
+{
+  "season": 35,
+  "source": "Wikipedia 'Dancing with the Stars (American TV series) season 35' (rev 1377959004, 2026-10-02): 16 couples; week 1 = two-night premiere with one elimination per night; weeks 2-3 one elimination each; 11 scored weeks, finale Nov 24, 2026.",
+  "note": "couplesCompeting = couples dancing (and able to score) in that week. 'actual' weeks come from results; 'projected' weeks are the best case allowed by the 11-week format (one elimination per week, 5-couple finale, as in seasons 33-34). Edit a projected week if ABC announces a double elimination or a different finale size. Max Possible also never assumes more couples than are still alive.",
+  "weeks": [
+    { "week": 1, "couplesCompeting": 16, "eliminations": 2, "status": "actual", "note": "two-night premiere, one couple out each night (double elimination week)" },
+    { "week": 2, "couplesCompeting": 14, "eliminations": 1, "status": "actual" },
+    { "week": 3, "couplesCompeting": 13, "eliminations": 1, "status": "actual" },
+    { "week": 4, "couplesCompeting": 12, "eliminations": 1, "status": "projected" },
+    { "week": 5, "couplesCompeting": 11, "eliminations": 1, "status": "projected" },
+    { "week": 6, "couplesCompeting": 10, "eliminations": 1, "status": "projected" },
+    { "week": 7, "couplesCompeting": 9, "eliminations": 1, "status": "projected" },
+    { "week": 8, "couplesCompeting": 8, "eliminations": 1, "status": "projected" },
+    { "week": 9, "couplesCompeting": 7, "eliminations": 1, "status": "projected" },
+    { "week": 10, "couplesCompeting": 6, "eliminations": 1, "status": "projected", "note": "semi-finals" },
+    { "week": 11, "couplesCompeting": 5, "eliminations": 0, "status": "projected", "note": "finale (5 couples)" }
+  ]
+}

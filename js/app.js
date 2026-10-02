@@ -7,6 +7,7 @@ const LOCK_CODE = '0000';
 let season;
 let scores;
 let league;
+let schedule = null; // data/elimination-schedule.json (couples competing each week); optional
 let activeView = 'rankings';
 let playerFilter = 'all';
 let rankSort = { key: 'points', dir: 'desc' };
@@ -16,7 +17,7 @@ let lastLoadedAt = null;
 
 const VIEWS = ['rankings', 'draft', 'scores', 'league'];
 const $ = (id) => document.getElementById(id);
-const S = DTSScoring.create({ get season() { return season; }, get scores() { return scores; }, get league() { return league; } });
+const S = DTSScoring.create({ get season() { return season; }, get scores() { return scores; }, get league() { return league; }, get schedule() { return schedule; } });
 
 function id(prefix) {
   return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -55,6 +56,12 @@ function loadLeague() {
 
 function saveLeague() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(league));
+}
+
+// Optional: how many couples compete each week. Missing file = no cap (old behaviour minus nothing).
+function loadSchedule() {
+  return fetch(`${ENV.dataUrl('elimination-schedule.json')}?ts=${Date.now()}`, { cache: 'no-store' })
+    .then((response) => (response.ok ? response.json() : null)).catch(() => null);
 }
 
 async function loadPublishedLeague() {
@@ -274,7 +281,7 @@ function previousRanks() {
   const latest = latestWeekNumber();
   if (latest < 2) return null;
   const prevScores = { ...scores, weeks: (scores.weeks || []).filter((w) => Number(w.week) < latest) };
-  const prev = DTSScoring.create({ season, scores: prevScores, league }).rankings({ key: 'points', dir: 'desc' });
+  const prev = DTSScoring.create({ season, scores: prevScores, league, schedule }).rankings({ key: 'points', dir: 'desc' });
   return new Map(prev.map((t, i) => [t.id, i + 1]));
 }
 
@@ -291,9 +298,40 @@ function scoringFormatText() {
       <p>If a permanent judge is absent, the two-judge total is scaled to 30 (total × 30 ÷ 20).</p>
       <p>Bonus points (dance marathons, dance-offs) and team dances are not counted. A withdrawal counts as an elimination.</p>
       <ul class="round-values" aria-label="Round values">${values}</ul>
-      <p>Max possible assumes every dancer whose couple is still alive scores a perfect 30 for every remaining week.</p>
+      <h4>Max possible (best case)</h4>
+      <p>Max possible = points so far + the most a team could still earn if everything goes its way: every surviving couple it holds scores a perfect 30/30 every remaining week.</p>
+      <p class="formula"><b>each remaining week: 30/30 × round value × surviving copies</b></p>
+      <p>Couples go home every week, so a team can’t count more of its couples than will still be competing that week (from the elimination schedule). Each drafted copy counts separately (celebrity and pro both earn full points), and in the best case the couples a team holds two copies of are the ones that survive.</p>
+      ${maxPossibleExample()}
       <p>Eliminated couples stop scoring after the week they go home.</p>
     </div>`;
+}
+
+// Worked example for the current #1 team, built from the same numbers the table shows.
+function maxPossibleExample() {
+  if (!league?.teams?.length || !season) return '';
+  const leader = S.rankings({ key: 'points', dir: 'desc' })[0];
+  if (!leader) return '';
+  const b = S.maxPossibleBreakdown(leader.id);
+  const latest = latestWeekNumber();
+  const held = b.held.map((h) => {
+    const couple = season.couples.find((c) => c.id === h.coupleId);
+    return `${safe(couple ? `${couple.amateur.name} & ${couple.pro.name}` : h.coupleId)} ×${h.copies}`;
+  }).join(', ');
+  const fmt = (n) => (Number.isInteger(n) ? String(n) : n.toFixed(2));
+  const rows = b.weeks.map((w) => {
+    const row = (schedule?.weeks || []).find((x) => Number(x.week) === w.week);
+    return `<tr><td>Week ${w.week}${row?.status === 'projected' ? ' <small>(projected)</small>' : ''}</td><td class="num">${w.cap}</td><td class="num">${w.couplesCounted}</td><td class="num">${w.copies}</td><td class="num">${fmt(w.value)}</td><td class="num">${fmt(w.max)}</td></tr>`;
+  }).join('');
+  if (!b.weeks.length) return `<p>Example: ${safe(leader.name)} has no weeks left, so Max possible = points = ${b.points.toFixed(2)}.</p>`;
+  return `
+      <p><b>Example — ${safe(leader.name)} (#1 after week ${latest}):</b> ${b.points.toFixed(2)} points so far; still alive: ${held || 'none'}.</p>
+      <div class="table-scroll"><table class="detail-table mpp-example">
+        <thead><tr><th>Week</th><th class="num">Couples competing</th><th class="num">Team couples counted</th><th class="num">Copies counted</th><th class="num">Round value</th><th class="num">Week max</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+      <p>${b.points.toFixed(2)} + ${b.weeks.map((w) => fmt(w.max)).join(' + ')} = <b>${b.total.toFixed(2)}</b></p>
+      <p>Couples-competing counts come from <code>data/elimination-schedule.json</code>; weeks marked projected assume one elimination a week and a ${safe((schedule?.weeks || []).slice(-1)[0]?.couplesCompeting ?? '?')}-couple finale.</p>`;
 }
 
 /* ---------- Draft view ---------- */
@@ -613,9 +651,11 @@ async function refreshOracleScores(silent) {
     const response = await fetch(`${ENV.dataUrl('scores.json')}?ts=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error('Unable to load published weekly scores.');
     const next = await response.json();
-    const before = JSON.stringify(scores);
-    const after = JSON.stringify(next);
+    const nextSchedule = await loadSchedule();
+    const before = JSON.stringify([scores, schedule]);
+    const after = JSON.stringify([next, nextSchedule]);
     scores = next;
+    schedule = nextSchedule;
     lastLoadedAt = new Date();
     if (!silent || before !== after) render(); else renderStatus();
     if (!silent) toast(before === after ? 'Scores are up to date' : 'New scores loaded');
@@ -727,9 +767,10 @@ function stagingBadge() {
 
 async function init() {
   stagingBadge();
-  [season, scores] = await Promise.all([
+  [season, scores, schedule] = await Promise.all([
     fetch(`${ENV.dataUrl('season.json')}?ts=${Date.now()}`, { cache: 'no-store' }).then((response) => response.json()),
-    fetch(`${ENV.dataUrl('scores.json')}?ts=${Date.now()}`, { cache: 'no-store' }).then((response) => response.json()).catch(() => ({ weeks: [] }))
+    fetch(`${ENV.dataUrl('scores.json')}?ts=${Date.now()}`, { cache: 'no-store' }).then((response) => response.json()).catch(() => ({ weeks: [] })),
+    loadSchedule()
   ]);
   lastLoadedAt = new Date();
   try {

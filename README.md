@@ -27,9 +27,9 @@ A Dancing with the Stars fantasy draft and scoring site. Search and share it as 
 - Each drafted copy earns the full points. The celebrity and the pro from one couple are not split.
 - A team's points are the sum over every published week and every pick.
 - A couple counts as alive until any week marks it `eliminated: true`. It still scores in the week it goes home.
-- **Max possible (MPP)** = current points + for every alive pick, the sum of all round values after the latest published week (a perfect 30 every remaining week).
+- **Max possible (MPP)** = a true best case: current points + for each remaining week *w*, `(30/30) × roundValue_w × copies_w`, where `copies_w` = copies the team holds on its best *k* surviving couples (two-copy couples first) and *k* = min(team's alive couples, couples competing in week *w*). Couples competing per week come from `data/elimination-schedule.json` (actual for past weeks, projected for future ones; edit it if a double elimination or a different finale size is announced) and are never more than the couples still alive. Without that file there is no cap. The original formula is kept as `maxPossibleLegacy` in `js/scoring.js`.
 - Rankings sort by Points (default, high to low). You can also sort by Alive or Max possible. Ties fall back to Points, then MPP.
-- `tests/verify-scoring.mjs` proves bit-for-bit that `js/scoring.js` matches the original app for every week.
+- `tests/verify-scoring.mjs` proves bit-for-bit that Points, Alive, legacy MPP and the sort comparator in `js/scoring.js` match the original app for every week, and checks the new MPP against an independent brute-force best case.
 
 ## Data
 
