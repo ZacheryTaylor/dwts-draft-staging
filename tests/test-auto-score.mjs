@@ -105,6 +105,8 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
   }
   ok(checked > 40 && mismatched.length === 0, `S34 permanent-judge totals agree with scoring chart minus guest (${checked} checked, ${mismatched.length} mismatches ${mismatched.slice(0, 3).join('; ')})`);
   ok(rep.report.flags.some((f) => /judged dances; multiDancePolicy="flag"/.test(f)), 'multi-dance weeks flagged under default policy');
+  ok(rep.proposals.some((p) => p.week === 7) && rep.report.info.some((i) => /Week 7: .* bonus \d+ ignored/.test(i)), 'week 7 marathon bonus rows ignored, dance scores still used');
+  ok(rep.proposals.some((p) => p.week === 9) && rep.report.info.some((i) => /Week 9: ignored non-couple table/.test(i)), 'week 9 team/relay table ignored');
   const allScores = rep.proposals.flatMap((p) => p.results.map((x) => x.score));
   ok(allScores.every((s) => s >= 3 && s <= 30), 'every written score within 3-30 after dropping guests');
 }

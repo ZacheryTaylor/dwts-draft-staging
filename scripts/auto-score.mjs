@@ -154,6 +154,7 @@ export function parseJudgeOrder(text) {
 export function parseScoreCell(text) {
   const t = text.replace(/\s+/g, ' ').trim();
   if (!t || /^(—|–|-|n\/a|tba)$/i.test(t)) return { empty: true };
+  if (/^\+?\d{1,2}$/.test(t)) return { bonus: Number(t.replace('+', '')) };
   const m = t.match(/^(\d{1,2})\s*\(\s*([\d\s,]+?)\s*\)\s*$/);
   if (!m) return { error: `unrecognised score cell "${t}"` };
   return { total: Number(m[1]), judges: m[2].split(',').map((x) => Number(x.trim())) };
@@ -239,6 +240,10 @@ function buildProposals(weeks) {
       const scoreCol = t.headers.findIndex((h) => h.startsWith('score'));
       const resultCol = t.headers.findIndex((h) => h.startsWith('result'));
       if (coupleCol !== 0 || scoreCol < 0) { if (t.headers.length) report.info.push(`Week ${w.week}: ignored non-couple table "${t.caption}" (team dance/bonus/other)`); continue; }
+      const cells = t.rows.map((r) => (r[scoreCol]?.text || '').trim()).filter(Boolean);
+      if (cells.length && cells.every((c) => /^\+?\d{1,2}$/.test(c)) || /marathon|bonus|dance-off|team/i.test(t.caption)) {
+        report.info.push(`Week ${w.week}: ignored bonus/team table "${t.caption}" (bonus points are never counted)`); continue;
+      }
       sawTable = true;
       for (const r of t.rows) {
         const label = r[coupleCol]?.text; if (!label) continue;
@@ -247,6 +252,7 @@ function buildProposals(weeks) {
         if (m.error) { flagIssue(w.week, m.error + ' — NOT guessed, couple skipped'); invalid = true; continue; }
         const entry = byCouple.get(m.id) || { coupleId: m.id, label, dances: [], resultText: '' };
         const sc = parseScoreCell(r[scoreCol]?.text || '');
+        if (sc.bonus !== undefined) { report.info.push(`Week ${w.week}: ${label} bonus ${sc.bonus} ignored (bonus points are not counted)`); byCouple.set(m.id, entry); continue; }
         if (sc.empty) { empty += 1; entry.pending = true; }
         else if (sc.error) { flagIssue(w.week, `${label}: ${sc.error}`); invalid = true; entry.bad = true; }
         else {
