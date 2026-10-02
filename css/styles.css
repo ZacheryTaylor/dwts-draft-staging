@@ -207,6 +207,7 @@ th { color: var(--pink); font-size: 10px; font-weight: 700; letter-spacing: 0.08
 .strong { font-weight: 700; color: var(--pink-dark); }
 tbody tr { transition: background-color var(--dur); }
 tbody tr:hover { background: color-mix(in srgb, var(--pink-light) 45%, transparent); }
+.rank-table tbody tr:hover { background: none; }
 
 .rank-cell { white-space: nowrap; }
 .rank-num { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--pink-light); color: var(--pink-dark); font-weight: 700; }
@@ -218,7 +219,7 @@ tbody tr:hover { background: color-mix(in srgb, var(--pink-light) 45%, transpare
 .team-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--pink) 45%, transparent); }
 .chev { display: inline-block; margin-left: 6px; transition: transform var(--dur) var(--ease); color: var(--pink); }
 .team-row.open .chev { transform: rotate(90deg); }
-.alive-meter { position: relative; display: inline-block; padding: 2px 8px; border-radius: var(--radius-pill); background: linear-gradient(90deg, var(--pink-light) calc(var(--alive) * 100%), transparent 0); border: 1px solid var(--line); }
+.alive-meter { display: inline-block; padding: 2px 8px; border-radius: var(--radius-pill); border: 1px solid var(--line); }
 .roster-cell { min-width: 260px; }
 .detail-row > td { background: var(--heading-bg); padding: 0; }
 .team-detail { padding: var(--space-3) var(--space-4); animation: rise 240ms var(--ease) both; }
@@ -251,11 +252,9 @@ table th .sort-head:hover, table th .sort-head:focus-visible { color: var(--pink
 }
 .podium li.is-leader .medal { opacity: .9; }
 .money { color: var(--gold); font-weight: 700; letter-spacing: .02em; }
-.rank-table tr.team-row.is-leader > td { background: linear-gradient(90deg, color-mix(in srgb, var(--gold) 9%, var(--white)), var(--white) 60%); border-top: 2px solid var(--gold); border-bottom: 2px solid var(--gold); }
+.rank-table tr.team-row.is-leader > td { border-top: 2px solid var(--gold); border-bottom: 2px solid var(--gold); }
 .rank-table tr.team-row.is-leader > td:first-child { border-left: 2px solid var(--gold); border-radius: 12px 0 0 12px; }
 .rank-table tr.team-row.is-leader > td:last-child { border-right: 2px solid var(--gold); border-radius: 0 12px 12px 0; }
-.rank-table tr.team-row.is-leader .rank-num { color: var(--white); background: linear-gradient(180deg, var(--gold), var(--pink-dark)); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 22%, transparent); }
-.leader-chip { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: var(--radius-pill); border: 1px solid var(--gold); color: var(--gold); background: var(--white); font-size: 10px; font-weight: 700; letter-spacing: .04em; white-space: nowrap; vertical-align: middle; }
 .rank-table { border-collapse: separate; border-spacing: 0; }
 
 /* ---------- live status ---------- */
@@ -388,9 +387,8 @@ footer { padding: var(--space-5) var(--space-4) calc(var(--space-6) + env(safe-a
   .rank-table td[data-label="Alive"]::before, .rank-table td[data-label="Max possible"]::before { content: attr(data-label) " "; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-right: 4px; }
   .rank-table .roster-cell { grid-area: roster; min-width: 0; }
   .rank-table .detail-row td { padding: 0; }
-  .rank-table tr.team-row.is-leader { margin: 6px 0; padding: 12px 10px; border: 2px solid var(--gold); border-radius: 16px; background: linear-gradient(160deg, color-mix(in srgb, var(--gold) 9%, var(--white)), var(--white) 70%); box-shadow: 0 10px 24px color-mix(in srgb, var(--gold) 22%, transparent); }
-  .rank-table tr.team-row.is-leader > td { background: none; border: 0 !important; border-radius: 0; }
-  .leader-chip { margin: 4px 0 0; display: table; }
+  .rank-table tr.team-row.is-leader { margin: 6px 0; padding: 12px 10px; border: 2px solid var(--gold); border-radius: 16px; }
+  .rank-table tr.team-row.is-leader > td { border: 0 !important; border-radius: 0; }
   .live-status { padding: 0 12px 6px; font-size: 11px; }
 
   .score-table thead { display: none; }

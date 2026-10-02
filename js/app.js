@@ -578,10 +578,10 @@ function renderRankings() {
             ${teams.map((item, index) => `
               <tr class="team-row ${openTeams.has(item.id) ? 'open' : ''} ${item.id === topId ? 'is-leader' : ''}" data-team="${item.id}">
                 <td class="rank-cell"><span class="rank-num">${index + 1}</span>${movement(prev, item.id, index + 1)}</td>
-                <td class="team-cell"><button type="button" class="team-toggle" data-toggle-team="${item.id}" aria-expanded="${openTeams.has(item.id)}">${safe(item.name)}<span class="chev" aria-hidden="true">›</span></button>${item.id === topId ? '<span class="leader-chip" title="Only first place gets paid">★ 1st · in the money</span>' : ''}</td>
+                <td class="team-cell"><button type="button" class="team-toggle" data-toggle-team="${item.id}" aria-expanded="${openTeams.has(item.id)}">${safe(item.name)}<span class="chev" aria-hidden="true">›</span></button></td>
                 <td class="num strong" data-label="Points">${item.points.toFixed(2)}</td>
                 ${latestWeek ? `<td class="num hide-sm" data-label="Wk ${latest}">+${fmt(weekPts(item))}</td>` : ''}
-                <td class="num" data-label="Alive"><span class="alive-meter" style="--alive:${item.picks.length ? item.alive / item.picks.length : 0}">${item.alive}/${item.picks.length}</span></td>
+                <td class="num" data-label="Alive"><span class="alive-meter">${item.alive}/${item.picks.length}</span></td>
                 <td class="num" data-label="Max possible">${item.mpp.toFixed(2)}</td>
                 <td class="roster-cell">${item.picks.map((pick) => `<span class="roster-chip ${pick.role} ${isAlive(pick.coupleId) ? '' : 'eliminated'}">${safe(pick.name)}</span>`).join('') || '—'}</td>
               </tr>

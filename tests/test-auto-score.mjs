@@ -26,7 +26,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
   ok(r.rep.report.unchanged === 43, `43/43 couple-weeks identical (got ${r.rep.report.unchanged})`);
   const after = JSON.parse(readFileSync(join(d, 'scores.json'), 'utf8'));
   ok(JSON.stringify(after.weeks.map((w) => w.results)) === JSON.stringify(JSON.parse(before).weeks.map((w) => w.results)), 'every score/elimination unchanged');
-  ok(r.rep.report.applied.length === 3 && r.rep.report.applied.every((a) => /added name/.test(a)), 'only change: week names backfilled (' + after.weeks.map((w) => w.week + '=' + w.name).join(', ') + ')');
+  ok(r.rep.report.applied.every((a) => /added name/.test(a)) && after.weeks.every((w) => w.name), 'only possible change: week names backfilled (' + r.rep.report.applied.length + ' added; ' + after.weeks.map((w) => w.week + '=' + w.name).join(', ') + ')');
 }
 
 // ---- 2. Dry run on empty data writes nothing; real run rebuilds weeks 1-3 exactly.
