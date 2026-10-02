@@ -1,6 +1,6 @@
 {
   "source": "Confirmed Dancing with the Stars weekly judge scores and elimination results",
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-10-02T20:03:06.913Z",
   "weeks": [
     {
       "week": 3,
@@ -72,7 +72,8 @@
           "score": 20,
           "eliminated": false
         }
-      ]
+      ],
+      "name": "Yacht Rock Night"
     },
     {
       "week": 2,
@@ -149,7 +150,8 @@
           "score": 15,
           "eliminated": false
         }
-      ]
+      ],
+      "name": "Viral Hits Night"
     },
     {
       "week": 1,
@@ -223,7 +225,7 @@
         },
         {
           "coupleId": "johnson",
-          "score":21,
+          "score": 21,
           "eliminated": false
         },
         {
@@ -236,7 +238,8 @@
           "score": 16,
           "eliminated": false
         }
-      ]
+      ],
+      "name": "Premiere"
     }
   ]
 }
