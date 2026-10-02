@@ -244,6 +244,28 @@ table th .sort-head:hover, table th .sort-head:focus-visible { color: var(--pink
 .chip { min-height: 34px; padding: 6px 12px; font-size: 12px; box-shadow: none; }
 .chip.active { border-color: var(--pink); color: var(--white); background: linear-gradient(180deg, var(--pink-soft), var(--pink)); }
 
+/* ---------- #1 = the only paid spot: gold (existing --gold) ring + soft glow ---------- */
+.podium li.is-leader {
+  border: 2px solid var(--gold);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 14%, transparent), 0 12px 30px color-mix(in srgb, var(--gold) 26%, transparent);
+}
+.podium li.is-leader .medal { opacity: .9; }
+.money { color: var(--gold); font-weight: 700; letter-spacing: .02em; }
+.rank-table tr.team-row.is-leader > td { background: linear-gradient(90deg, color-mix(in srgb, var(--gold) 9%, var(--white)), var(--white) 60%); border-top: 2px solid var(--gold); border-bottom: 2px solid var(--gold); }
+.rank-table tr.team-row.is-leader > td:first-child { border-left: 2px solid var(--gold); border-radius: 12px 0 0 12px; }
+.rank-table tr.team-row.is-leader > td:last-child { border-right: 2px solid var(--gold); border-radius: 0 12px 12px 0; }
+.rank-table tr.team-row.is-leader .rank-num { color: var(--white); background: linear-gradient(180deg, var(--gold), var(--pink-dark)); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 22%, transparent); }
+.leader-chip { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: var(--radius-pill); border: 1px solid var(--gold); color: var(--gold); background: var(--white); font-size: 10px; font-weight: 700; letter-spacing: .04em; white-space: nowrap; vertical-align: middle; }
+.rank-table { border-collapse: separate; border-spacing: 0; }
+
+/* ---------- live status ---------- */
+.live-status { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--space-4) 8px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: var(--muted); font-size: 12px; font-weight: 600; }
+.live-status:empty { display: none; }
+.live-status b { color: var(--pink-dark); }
+.live-status .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 0 0 color-mix(in srgb, var(--pink) 50%, transparent); animation: pulse 2.4s infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--pink) 45%, transparent); } 70% { box-shadow: 0 0 0 8px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+.link-btn { min-height: 28px; padding: 2px 10px; font-size: 12px; box-shadow: none; }
+
 /* ---------- weekly scores ---------- */
 .week-tabs { display: flex; gap: 6px; margin: var(--space-4) 0 var(--space-2); overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
 .week-tabs::-webkit-scrollbar { display: none; }
@@ -366,6 +388,10 @@ footer { padding: var(--space-5) var(--space-4) calc(var(--space-6) + env(safe-a
   .rank-table td[data-label="Alive"]::before, .rank-table td[data-label="Max possible"]::before { content: attr(data-label) " "; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-right: 4px; }
   .rank-table .roster-cell { grid-area: roster; min-width: 0; }
   .rank-table .detail-row td { padding: 0; }
+  .rank-table tr.team-row.is-leader { margin: 6px 0; padding: 12px 10px; border: 2px solid var(--gold); border-radius: 16px; background: linear-gradient(160deg, color-mix(in srgb, var(--gold) 9%, var(--white)), var(--white) 70%); box-shadow: 0 10px 24px color-mix(in srgb, var(--gold) 22%, transparent); }
+  .rank-table tr.team-row.is-leader > td { background: none; border: 0 !important; border-radius: 0; }
+  .leader-chip { margin: 4px 0 0; display: table; }
+  .live-status { padding: 0 12px 6px; font-size: 11px; }
 
   .score-table thead { display: none; }
   .score-table tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 10px 0; border-bottom: 1px solid var(--row-line); }

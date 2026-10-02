@@ -242,6 +242,26 @@ function roleLabel(role) { return role === 'amateur' ? 'Amateur' : 'Pro'; }
 function fmt(n) { return Number(n).toFixed(2); }
 function sortedWeeks() { return [...(scores.weeks || [])].sort((a, b) => Number(a.week) - Number(b.week)); }
 function latestWeekNumber() { return Math.max(0, ...(scores.weeks || []).map((w) => Number(w.week) || 0)); }
+function weekName(week) { return week?.name || week?.label || ''; }
+function weekTitle(week) { const n = weekName(week); return `Week ${week.week}${n ? `: ${n}` : ''}`; }
+function leaderId() { return S.rankings({ key: 'points', dir: 'desc' })[0]?.id || null; }
+function formatUpdated(value) {
+  if (!value) return '';
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    const [y, m, d] = value.split('-').map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString([], { month: 'short', day: 'numeric' });
+  }
+  const t = new Date(value);
+  if (Number.isNaN(t.getTime())) return String(value);
+  return t.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+}
+function renderStatus() {
+  const el = $('live-status');
+  if (!el || !scores) return;
+  const checked = lastLoadedAt ? lastLoadedAt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) : '';
+  el.innerHTML = `<span class="dot" aria-hidden="true"></span><span>Last updated <b>${safe(formatUpdated(scores.updatedAt) || '—')}</b>${checked ? ` · checked ${safe(checked)}` : ''}</span><button type="button" id="status-refresh" class="link-btn" aria-label="Check for new scores now">↻ Refresh</button>`;
+  $('status-refresh').onclick = () => refreshOracleScores(false);
+}
 function coupleById(coupleId) { return season.couples.find((item) => item.id === coupleId); }
 function coupleName(couple) { return couple ? `${couple.amateur.name} & ${couple.pro.name}` : 'Unknown couple'; }
 function eliminatedWeek(coupleId) {
@@ -267,6 +287,9 @@ function scoringFormatText() {
       <p class="formula"><b>(couple score ÷ 30) × that week’s round value</b></p>
       <p>A perfect 30/30 earns the full round value. The celebrity and professional from the same couple each earn the full result for their own drafted copy; points are not split in half.</p>
       <p>Guest judges are left out so every week is scored by the same three permanent judges (out of 30).</p>
+      <p>Two or more dances in a week: the couple’s dance scores are averaged (each out of 30), so a perfect week still earns the full round value.</p>
+      <p>If a permanent judge is absent, the two-judge total is scaled to 30 (total × 30 ÷ 20).</p>
+      <p>Bonus points (dance marathons, dance-offs) and team dances are not counted. A withdrawal counts as an elimination.</p>
       <ul class="round-values" aria-label="Round values">${values}</ul>
       <p>Max possible assumes every dancer whose couple is still alive scores a perfect 30 for every remaining week.</p>
       <p>Eliminated couples stop scoring after the week they go home.</p>
@@ -494,7 +517,7 @@ function teamDetail(item) {
       <td class="num strong">${fmt(total)}</td></tr>`;
   }).join('');
   return `<div class="team-detail"><div class="table-scroll"><table class="detail-table">
-    <thead><tr><th>Dancer</th>${weeks.map((w) => `<th class="num">Wk ${w.week}</th>`).join('')}<th class="num">Total</th></tr></thead>
+    <thead><tr><th>Dancer</th>${weeks.map((w) => `<th class="num" title="${safe(weekTitle(w))}">Wk ${w.week}</th>`).join('')}<th class="num">Total</th></tr></thead>
     <tbody>${rows}</tbody></table></div>
     <p class="hint">Per-dancer totals are shown for reference; the team total above is the official figure.</p></div>`;
 }
@@ -507,6 +530,7 @@ function renderRankings() {
   const weekPts = (item) => (latestWeek ? item.picks.reduce((s, p) => s + S.pickWeekPoints(p, latestWeek), 0) : 0);
   const podium = S.rankings({ key: 'points', dir: 'desc' }).slice(0, 3);
   const lead = podium[0]?.points || 0;
+  const topId = leaderId();
   const bestWeek = latestWeek ? [...teams].sort((a, b) => weekPts(b) - weekPts(a))[0] : null;
 
   $('view-rankings').innerHTML = `
@@ -515,19 +539,19 @@ function renderRankings() {
         <div>
           <p class="eyebrow">${safe(league.name || 'Untitled draft')}</p>
           <h2>Rankings</h2>
-          <p class="muted">Results and rosters for this saved draft${latest ? ` · through week ${latest}${latestWeek?.label ? ` (${safe(latestWeek.label)})` : ''}` : ''}.</p>
+          <p class="muted">Results and rosters for this saved draft${latest ? ` · through ${safe(weekTitle(latestWeek))}` : ''}.</p>
         </div>
         <div class="hero-actions">
           <button type="button" id="toggle-scoring" class="ghost" aria-expanded="false" aria-controls="scoring-format">How scoring works</button>
         </div>
       </div>
       ${podium.length ? `<ol class="podium">${podium.map((t, i) => `
-        <li class="podium-${i + 1}">
+        <li class="podium-${i + 1} ${t.id === topId ? 'is-leader' : ''}">
           <span class="medal" aria-hidden="true">${['✦', '✧', '✶'][i]}</span>
           <span class="podium-rank">${i + 1}</span>
           <span class="podium-name">${safe(t.name)}</span>
           <span class="podium-pts">${fmt(t.points)} <small>pts</small></span>
-          <span class="podium-gap">${i === 0 ? 'Leader' : `${fmt(lead - t.points)} behind`}</span>
+          <span class="podium-gap">${i === 0 ? '<span class="money">In the money</span>' : `${fmt(lead - t.points)} behind`}</span>
         </li>`).join('')}</ol>` : ''}
       ${bestWeek && weekPts(bestWeek) > 0 ? `<p class="spotlight">✨ Top team in week ${latest}: <b>${safe(bestWeek.name)}</b> with ${fmt(weekPts(bestWeek))} pts</p>` : ''}
     </div>
@@ -552,9 +576,9 @@ function renderRankings() {
           </thead>
           <tbody>
             ${teams.map((item, index) => `
-              <tr class="team-row ${openTeams.has(item.id) ? 'open' : ''}" data-team="${item.id}">
+              <tr class="team-row ${openTeams.has(item.id) ? 'open' : ''} ${item.id === topId ? 'is-leader' : ''}" data-team="${item.id}">
                 <td class="rank-cell"><span class="rank-num">${index + 1}</span>${movement(prev, item.id, index + 1)}</td>
-                <td class="team-cell"><button type="button" class="team-toggle" data-toggle-team="${item.id}" aria-expanded="${openTeams.has(item.id)}">${safe(item.name)}<span class="chev" aria-hidden="true">›</span></button></td>
+                <td class="team-cell"><button type="button" class="team-toggle" data-toggle-team="${item.id}" aria-expanded="${openTeams.has(item.id)}">${safe(item.name)}<span class="chev" aria-hidden="true">›</span></button>${item.id === topId ? '<span class="leader-chip" title="Only first place gets paid">★ 1st · in the money</span>' : ''}</td>
                 <td class="num strong" data-label="Points">${item.points.toFixed(2)}</td>
                 ${latestWeek ? `<td class="num hide-sm" data-label="Wk ${latest}">+${fmt(weekPts(item))}</td>` : ''}
                 <td class="num" data-label="Alive"><span class="alive-meter" style="--alive:${item.picks.length ? item.alive / item.picks.length : 0}">${item.alive}/${item.picks.length}</span></td>
@@ -593,7 +617,7 @@ async function refreshOracleScores(silent) {
     const after = JSON.stringify(next);
     scores = next;
     lastLoadedAt = new Date();
-    if (!silent || before !== after) render();
+    if (!silent || before !== after) render(); else renderStatus();
     if (!silent) toast(before === after ? 'Scores are up to date' : 'New scores loaded');
     else if (before !== after) toast('New scores just came in ✨');
   } catch {
@@ -619,15 +643,15 @@ function renderScores() {
         <div>
           <p class="eyebrow">${weeks.length ? `${weeks.length} week${weeks.length === 1 ? '' : 's'} scored` : 'Season'} ${season.season ? `· Season ${safe(season.season)}` : ''}</p>
           <h2>Weekly scores</h2>
-          <p class="muted">Each dancer earns (couple score ÷ 30) × that round’s value. Scores are loaded from the published weekly results file (${safe(source)}).</p>
+          <p class="muted">Each dancer earns (couple score ÷ 30) × that round’s value. Permanent judges only; two-dance weeks are averaged. Scores are loaded from the published weekly results file (${safe(source)}).</p>
         </div>
         <div class="hero-actions">
           <button id="refresh-scores" class="ghost">↻ Refresh published scores</button>
-          <span class="hint">${scores.updatedAt ? `Updated ${safe(scores.updatedAt)}` : ''}${lastLoadedAt ? ` · checked ${lastLoadedAt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}` : ''}</span>
+          <span class="hint">${scores.updatedAt ? `Last updated ${safe(formatUpdated(scores.updatedAt))}` : ''}${lastLoadedAt ? ` · checked ${lastLoadedAt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}` : ''}</span>
         </div>
       </div>
       ${weeks.length ? `<div class="week-tabs" role="tablist" aria-label="Choose week">
-        ${asc.map((w) => `<button role="tab" data-week="${w.week}" aria-selected="${Number(showWeek) === Number(w.week)}" class="${Number(showWeek) === Number(w.week) ? 'active' : ''}">Week ${w.week}</button>`).join('')}
+        ${asc.map((w) => `<button role="tab" data-week="${w.week}" title="${safe(weekTitle(w))}" aria-selected="${Number(showWeek) === Number(w.week)}" class="${Number(showWeek) === Number(w.week) ? 'active' : ''}">Week ${w.week}</button>`).join('')}
         <button role="tab" data-week="all" aria-selected="${showWeek === 'all'}" class="${showWeek === 'all' ? 'active' : ''}">All weeks</button>
       </div>` : ''}
       ${weeks.length ? visible.map((week) => {
@@ -637,7 +661,7 @@ function renderScores() {
         return `
         <section class="week-block">
           <div class="week-head">
-            <h3>Week ${week.week}${week.label ? ` <span class="week-label">${safe(week.label)}</span>` : ''}</h3>
+            <h3>Week ${week.week}${weekName(week) ? `: <span class="week-label">${safe(weekName(week))}</span>` : ''}</h3>
             <span class="pill">Round value ${safe(value)}</span>
           </div>
           <table class="score-table">
@@ -686,6 +710,7 @@ function render() {
   renderDraft();
   renderRankings();
   renderScores();
+  renderStatus();
   showView(activeView, { updateHash: false });
 }
 
@@ -703,8 +728,8 @@ function stagingBadge() {
 async function init() {
   stagingBadge();
   [season, scores] = await Promise.all([
-    fetch(ENV.dataUrl('season.json')).then((response) => response.json()),
-    fetch(ENV.dataUrl('scores.json')).then((response) => response.json()).catch(() => ({ weeks: [] }))
+    fetch(`${ENV.dataUrl('season.json')}?ts=${Date.now()}`, { cache: 'no-store' }).then((response) => response.json()),
+    fetch(`${ENV.dataUrl('scores.json')}?ts=${Date.now()}`, { cache: 'no-store' }).then((response) => response.json()).catch(() => ({ weeks: [] }))
   ]);
   lastLoadedAt = new Date();
   try {
@@ -721,7 +746,9 @@ async function init() {
   window.addEventListener('hashchange', () => showView(location.hash.replace('#', ''), { updateHash: false }));
   render();
   document.body.classList.add('ready');
-  setInterval(() => refreshOracleScores(true), 60000);
+  // Auto-poll while open (every 60 s, as before) and re-check as soon as the tab is shown again.
+  setInterval(() => { if (!document.hidden) refreshOracleScores(true); }, 60000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshOracleScores(true); });
 }
 
 init();

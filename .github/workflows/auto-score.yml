@@ -26,8 +26,15 @@ jobs:
     if: github.repository == 'ZacheryTaylor/dwts-draft' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write   # push data/scores.json to THIS repo only (GITHUB_TOKEN is repo-scoped)
+      pages: write      # request a Pages rebuild after a data commit
     steps:
+      - name: Guard - only the live repo or its staging copy may write
+        run: |
+          case "$GITHUB_REPOSITORY" in
+            ZacheryTaylor/dwts-draft|ZacheryTaylor/dwts-draft-staging) echo "Target repo: $GITHUB_REPOSITORY (writes go here only)";;
+            *) echo "Refusing to run in $GITHUB_REPOSITORY"; exit 1;;
+          esac
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
@@ -42,13 +49,27 @@ jobs:
       - name: Pull scores and merge (never overwrites; conflicts fail the job)
         if: github.event_name == 'schedule' || !inputs.dry_run
         run: node scripts/auto-score.mjs
-      - name: Commit new scores
+      - name: Validate merged data before committing
         if: github.event_name == 'schedule' || !inputs.dry_run
         run: |
-          if git diff --quiet -- data/scores.json data/auto-score-log.json; then echo "No new scores."; exit 0; fi
+          node -e "const s=require('./data/scores.json'); if(!Array.isArray(s.weeks)) throw new Error('weeks missing'); for (const w of s.weeks) for (const r of w.results) { if (!(r.score>=0 && r.score<=30)) throw new Error('bad score '+JSON.stringify(r)); } console.log('scores.json OK:', s.weeks.length, 'weeks, updatedAt', s.updatedAt)"
+          node tests/verify-scoring.mjs tests/fixtures/original-app.js data | tail -1
+          git diff --stat -- data
+      - name: Commit new scores
+        id: commit
+        if: github.event_name == 'schedule' || !inputs.dry_run
+        run: |
+          if git diff --quiet -- data/scores.json data/auto-score-log.json; then echo "No new scores."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/scores.json data/auto-score-log.json
           git commit -m "Auto score: permanent-judge totals from Wikipedia"
           git pull --rebase --autostash
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      - name: Rebuild Pages so the site serves the new data
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --jq .status || echo "Pages build request failed (the push usually triggers one anyway)"
+

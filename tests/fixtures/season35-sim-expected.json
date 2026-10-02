@@ -1,0 +1,98 @@
+{
+  "4": {
+    "pashkov": {
+      "score": 25.5,
+      "eliminated": false
+    },
+    "armstrong": {
+      "score": 21,
+      "eliminated": false
+    },
+    "arnold": {
+      "score": 22.5,
+      "eliminated": false
+    },
+    "karagach": {
+      "score": 24,
+      "eliminated": false
+    },
+    "carson": {
+      "score": 16.5,
+      "eliminated": true
+    },
+    "johnson": {
+      "score": 25.5,
+      "eliminated": false
+    },
+    "slater": {
+      "score": 19.5,
+      "eliminated": false
+    },
+    "chmerkovskiy": {
+      "score": 24,
+      "eliminated": false
+    },
+    "sosa": {
+      "score": 19.5,
+      "eliminated": false
+    },
+    "ballas": {
+      "score": 25.5,
+      "eliminated": false
+    },
+    "ravnik": {
+      "score": 21,
+      "eliminated": false
+    },
+    "burgess": {
+      "score": 18,
+      "eliminated": false
+    }
+  },
+  "5": {
+    "pashkov": {
+      "score": 28.5,
+      "eliminated": false
+    },
+    "armstrong": {
+      "score": 24.5,
+      "eliminated": false
+    },
+    "arnold": {
+      "score": 22,
+      "eliminated": true
+    },
+    "karagach": {
+      "score": 26.5,
+      "eliminated": false
+    },
+    "johnson": {
+      "score": 29,
+      "eliminated": false
+    },
+    "slater": {
+      "score": 22,
+      "eliminated": false
+    },
+    "chmerkovskiy": {
+      "score": 27.5,
+      "eliminated": false
+    },
+    "sosa": {
+      "score": 23.5,
+      "eliminated": false
+    },
+    "ballas": {
+      "score": 28.5,
+      "eliminated": false
+    },
+    "ravnik": {
+      "score": 24.5,
+      "eliminated": false
+    },
+    "burgess": {
+      "score": 20.5,
+      "eliminated": true
+    }
+  }
+}

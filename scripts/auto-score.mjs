@@ -232,8 +232,14 @@ function buildProposals(weeks) {
     if (ONLY_WEEK && w.week !== ONLY_WEEK) continue;
     if (!w.order) { flagIssue(w.week, 'no judge order line found; skipped'); continue; }
     const { idx, guests, missing } = permanentIndexes(w.order);
-    if (missing.length) { flagIssue(w.week, `permanent judge(s) absent from order: ${missing.join(', ')} — week skipped (needs a decision)`); continue; }
-    if (idx.length !== config.permanentJudges.length) { flagIssue(w.week, `expected ${config.permanentJudges.length} permanent judges, found ${idx.length}`); continue; }
+    // Absent permanent judge (Zach, 2026-10-02): scale the remaining judges' total to /30,
+    // i.e. total x 30/20 when one of three is missing. Two or more missing -> flag, skip.
+    let scale = 1;
+    if (missing.length === 1 && config.absentJudgePolicy !== 'flag') {
+      scale = config.maxScore / (idx.length * config.judgeScoreRange[1]);
+      report.info.push(`Week ${w.week}: permanent judge absent (${missing.join(', ')}); totals scaled x${config.maxScore}/${idx.length * config.judgeScoreRange[1]}`);
+    } else if (missing.length) { flagIssue(w.week, `permanent judge(s) absent from order: ${missing.join(', ')} — week skipped`); continue; }
+    if (idx.length !== config.permanentJudges.length - missing.length) { flagIssue(w.week, `expected ${config.permanentJudges.length - missing.length} permanent judges, found ${idx.length}`); continue; }
     const byCouple = new Map(); let sawTable = false; let empty = 0; let invalid = false;
     for (const t of w.tables) {
       const coupleCol = t.headers.findIndex((h) => h === 'couple');
@@ -262,8 +268,9 @@ function buildProposals(weeks) {
           if (sc.judges.reduce((a, b) => a + b, 0) !== sc.total) problems.push(`listed total ${sc.total} != sum of judges`);
           if (problems.length) { flagIssue(w.week, `${label}: ${problems.join('; ')}`); entry.bad = true; invalid = true; }
           else {
-            const perm = idx.reduce((s, i) => s + sc.judges[i], 0);
-            entry.dances.push({ total: sc.total, judges: sc.judges, permanentTotal: perm, guestScores: sc.judges.filter((_, i) => !idx.includes(i)) });
+            const permRaw = idx.reduce((s, i) => s + sc.judges[i], 0);
+            const perm = scale === 1 ? permRaw : (permRaw * config.maxScore) / (idx.length * config.judgeScoreRange[1]);
+            entry.dances.push({ total: sc.total, judges: sc.judges, permanentRaw: permRaw, scaled: scale !== 1, permanentTotal: perm, guestScores: sc.judges.filter((_, i) => !idx.includes(i)) });
           }
         }
         const res = r[resultCol]?.text || '';
@@ -282,12 +289,13 @@ function buildProposals(weeks) {
       else if (config.multiDancePolicy === 'first') score = e.dances[0].permanentTotal;
       else { flagIssue(w.week, `${e.label}: ${e.dances.length} judged dances; multiDancePolicy="flag" so it was skipped (Zach to decide)`); invalid = true; continue; }
       if (score > config.maxScore || score < 0) { flagIssue(w.week, `${e.label}: computed ${score} outside 0-${config.maxScore}`); invalid = true; continue; }
-      if (/withdr|quit|left/i.test(e.resultText)) flagIssue(w.week, `${e.label}: result "${e.resultText}" — marked eliminated, please review`);
+      if (e.dances.length > 1) report.info.push(`Week ${w.week}: ${e.label} averaged ${e.dances.length} dances (${e.dances.map((d) => d.permanentTotal).join(' + ')}) / ${e.dances.length} = ${score}`);
+      if (/withdr|quit/i.test(e.resultText)) report.info.push(`Week ${w.week}: ${e.label} "${e.resultText}" counted as elimination`);
       results.push({ coupleId: c.id, score, eliminated: /eliminat|withdr|quit/i.test(e.resultText), _guest: e.dances.flatMap((d) => d.guestScores), _raw: e.dances.map((d) => `${d.total} (${d.judges.join(', ')})`) });
     }
     if (!results.length) { report.info.push(`Week ${w.week}: no scores posted yet`); continue; }
     if ((empty || invalid) && !ALLOW_PARTIAL) { flagIssue(w.week, `incomplete (${empty} unscored, ${invalid ? 'some invalid' : 'none invalid'}) — week not written (use --allow-partial to override)`); continue; }
-    proposals.push({ week: w.week, label: w.label, guests: permanentIndexes(w.order).guests, results });
+    proposals.push({ week: w.week, label: w.label, guests, scaled: scale !== 1, results });
   }
   return proposals;
 }
@@ -297,13 +305,24 @@ function merge(proposals) {
   const next = JSON.parse(scoresRaw);
   next.weeks = Array.isArray(next.weeks) ? next.weeks : [];
   let changed = false;
-  for (const p of proposals) {
+  for (const p of [...proposals].sort((a, b) => a.week - b.week)) {
     let wk = next.weeks.find((w) => Number(w.week) === p.week);
     const guestNote = p.guests.length ? ` (guest judge dropped: ${p.guests.join(', ')})` : '';
     if (!wk) {
-      wk = { week: p.week, label: p.label, maxScore: config.maxScore, results: [] };
-      next.weeks.push(wk);
-      report.applied.push(`Week ${p.week}: NEW week "${p.label}" with ${p.results.length} couples${guestNote}`);
+      // New week: created automatically. Number must be the next one and must have a
+      // round value in season.json; the name comes from the source heading.
+      const roundValue = season.roundValues?.[p.week - 1];
+      const hasPrev = p.week === 1 || next.weeks.some((w) => Number(w.week) === p.week - 1);
+      if (!roundValue) { flagIssue(p.week, `no round value in season.json for week ${p.week} — not created`); continue; }
+      if (!hasPrev) { flagIssue(p.week, `week ${p.week - 1} is missing, so week ${p.week} was not created (no gaps)`); continue; }
+      wk = { week: p.week, name: p.label, label: p.label, maxScore: config.maxScore, results: [] };
+      next.weeks.push(wk); changed = true;
+      report.applied.push(`Week ${p.week}: NEW week "${p.label}" (round value ${roundValue}) with ${p.results.length} couples${guestNote}${p.scaled ? ' (absent judge: scaled to /30)' : ''}`);
+    } else if (p.label && !wk.name) {
+      wk.name = p.label; changed = true;
+      report.applied.push(`Week ${p.week}: added name "${p.label}" (scores untouched)`);
+    } else if (p.label && wk.name !== p.label) {
+      report.info.push(`Week ${p.week}: source name "${p.label}" differs from stored "${wk.name}" — kept stored name`);
     }
     for (const r of p.results) {
       const cur = (wk.results || []).find((x) => x.coupleId === r.coupleId);
@@ -330,6 +349,7 @@ function merge(proposals) {
     wk.results.sort((a, b) => order.indexOf(a.coupleId) - order.indexOf(b.coupleId));
   }
   next.weeks.sort((a, b) => b.week - a.week); // newest first, as in the existing file
+  if (changed) next.updatedAt = new Date().toISOString();
   return { next, changed };
 }
 
