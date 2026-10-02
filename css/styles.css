@@ -219,7 +219,7 @@ tbody tr:hover { background: color-mix(in srgb, var(--pink-light) 45%, transpare
 .team-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--pink) 45%, transparent); }
 .chev { display: inline-block; margin-left: 6px; transition: transform var(--dur) var(--ease); color: var(--pink); }
 .team-row.open .chev { transform: rotate(90deg); }
-.alive-meter { display: inline-block; padding: 2px 8px; border-radius: var(--radius-pill); border: 1px solid var(--line); }
+.alive-meter { position: relative; display: inline-block; padding: 2px 8px; border-radius: var(--radius-pill); background: linear-gradient(90deg, var(--pink-light) calc(var(--alive) * 100%), transparent 0); border: 1px solid var(--line); }
 .roster-cell { min-width: 260px; }
 .detail-row > td { background: var(--heading-bg); padding: 0; }
 .team-detail { padding: var(--space-3) var(--space-4); animation: rise 240ms var(--ease) both; }

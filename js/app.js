@@ -619,7 +619,7 @@ function renderRankings() {
                 <td class="team-cell"><button type="button" class="team-toggle" data-toggle-team="${item.id}" aria-expanded="${openTeams.has(item.id)}">${safe(item.name)}<span class="chev" aria-hidden="true">›</span></button></td>
                 <td class="num strong" data-label="Points">${item.points.toFixed(2)}</td>
                 ${latestWeek ? `<td class="num hide-sm" data-label="Wk ${latest}">+${fmt(weekPts(item))}</td>` : ''}
-                <td class="num" data-label="Alive"><span class="alive-meter">${item.alive}/${item.picks.length}</span></td>
+                <td class="num" data-label="Alive"><span class="alive-meter" style="--alive:${item.picks.length ? item.alive / item.picks.length : 0}">${item.alive}/${item.picks.length}</span></td>
                 <td class="num" data-label="Max possible">${item.mpp.toFixed(2)}</td>
                 <td class="roster-cell">${item.picks.map((pick) => `<span class="roster-chip ${pick.role} ${isAlive(pick.coupleId) ? '' : 'eliminated'}">${safe(pick.name)}</span>`).join('') || '—'}</td>
               </tr>
