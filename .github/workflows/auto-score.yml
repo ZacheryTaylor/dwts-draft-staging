@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write   # push data/scores.json to THIS repo only (GITHUB_TOKEN is repo-scoped)
-      pages: write      # request a Pages rebuild after a data commit
+      pages: write      # read Pages build status (and request a build only if the push did not start one)
     steps:
       - name: Guard - only the live repo or its staging copy may write
         run: |
@@ -67,9 +67,17 @@ jobs:
           git pull --rebase --autostash
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
-      - name: Rebuild Pages so the site serves the new data
+      - name: Confirm Pages deployed the new data
         if: steps.commit.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --jq .status || echo "Pages build request failed (the push usually triggers one anyway)"
-
+        run: |
+          # The push triggers the Pages build. Wait for it; only request a build if none appears.
+          SHA=$(git rev-parse HEAD)
+          for i in $(seq 1 30); do
+            OK=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds?per_page=5" --jq "[.[] | select(.commit == \"$SHA\" and .status == \"built\")] | length")
+            if [ "$OK" -gt 0 ]; then echo "Pages built $SHA"; exit 0; fi
+            if [ "$i" -eq 16 ]; then gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --jq .status || true; fi
+            sleep 10
+          done
+          echo "::error::Pages did not finish building $SHA within 5 minutes"; exit 1
