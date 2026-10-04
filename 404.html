@@ -2,11 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=./index.html" />
   <title>DWTS Draft</title>
-  <script>location.replace("./index.html");</script>
+  <script>
+    // Send any unknown URL back to the app's home page. Works both on the custom domain
+    // (https://draftthestars.com/ -> "/") and on a project subpath
+    // (https://zacherytaylor.github.io/dwts-draft/ -> "/dwts-draft/"), at any depth.
+    (function () {
+      var home = '/';
+      if (/\.github\.io$/.test(location.hostname)) {
+        var m = location.pathname.match(/^\/[^\/]+\//);
+        if (m) home = m[0];
+      }
+      location.replace(home + location.hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/" /></noscript>
 </head>
 <body>
-  <p><a href="./index.html">Open DWTS Draft</a></p>
+  <p><a href="/">Open DWTS Draft</a></p>
 </body>
 </html>

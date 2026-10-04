@@ -1,5 +1,7 @@
 /*
- * Environment detection. The live site is https://zacherytaylor.github.io/dwts-draft/.
+ * Environment detection. The live site is https://draftthestars.com/ (formerly
+ * https://zacherytaylor.github.io/dwts-draft/, which GitHub redirects to the domain).
+ * All asset and data paths are relative, so the site works at the domain root or a subpath.
  * Anything served from the dwts-draft-staging repo (or localhost) is STAGING:
  *  - shows the "Staging preview" badge
  *  - uses its own localStorage key so it can never touch the live site's saved draft
