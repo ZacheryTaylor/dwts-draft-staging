@@ -8,9 +8,11 @@ on:
         type: boolean
         default: true
   schedule:
-    # DWTS airs Tuesdays 8-10 PM ET. Times are UTC:
+    # DWTS airs Tuesdays 8-10 PM ET. Times are UTC (CDT = UTC-5; shifts +1h when CT is on standard time):
     # every 30 min Wed 01:00-08:30 UTC  = Tue 8 PM - Wed 3:30 AM CT (Wikipedia usually updates within hours)
     - cron: "*/30 1-8 * * 3"
+    # fixed weekly check at 9:05 PM CT Tuesday (= Wed 02:05 UTC on daylight time)
+    - cron: "5 2 * * 3"
     # follow-up checks Wed 14:00 / 22:00 UTC and Thu 14:00 UTC to pick up late edits and results
     - cron: "0 14,22 * * 3"
     - cron: "0 14 * * 4"
