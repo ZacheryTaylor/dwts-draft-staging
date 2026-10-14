@@ -4,6 +4,8 @@ import { execFileSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parseTable, norm } from '../scripts/auto-score.mjs';
+// Frozen weeks 1-3 snapshot so tests don't break as live data/scores.json gains weeks.
+const FIX_SCORES = 'tests/fixtures/scores-weeks1-3.json';
 
 let pass = 0, fail = 0;
 const ok = (cond, msg) => { if (cond) { pass += 1; console.log('  ok  ', msg); } else { fail += 1; console.log('  FAIL', msg); } };
@@ -18,7 +20,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
 // ---- 1. Season 35 (current) against the real backed-up data: every overlap must match.
 {
   console.log('Season 35 vs existing data/scores.json');
-  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(join('data', f), join(d, f)));
+  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(f === 'scores.json' ? FIX_SCORES : join('data', f), join(d, f)));
   const before = readFileSync(join(d, 'scores.json'), 'utf8');
   const r = run(d, ['--wikitext-file', 'tests/fixtures/season35-rev1377959004.wikitext']);
   ok(r.code === 0, 'exit 0, no conflicts');
@@ -38,7 +40,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
   ok(JSON.parse(readFileSync(join(d, 'scores.json'), 'utf8')).weeks.length === 0, 'dry run wrote nothing');
   run(d, ['--wikitext-file', 'tests/fixtures/season35-rev1377959004.wikitext']);
   const built = JSON.parse(readFileSync(join(d, 'scores.json'), 'utf8'));
-  const orig = JSON.parse(readFileSync('data/scores.json', 'utf8'));
+  const orig = JSON.parse(readFileSync(FIX_SCORES, 'utf8'));
   const strip = (s) => s.weeks.map((w) => ({ week: w.week, maxScore: w.maxScore, results: w.results }));
   ok(JSON.stringify(strip(built)) === JSON.stringify(strip(orig)), 'auto-built weeks/results/order identical to hand-entered data');
   ok(existsSync(join(d, 'auto-score-log.json')), 'audit log written');
@@ -47,7 +49,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
 // ---- 3. Conflict: an existing score that differs is NOT overwritten, exit code 2.
 {
   console.log('Conflict protection');
-  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(join('data', f), join(d, f)));
+  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(f === 'scores.json' ? FIX_SCORES : join('data', f), join(d, f)));
   const s = JSON.parse(readFileSync(join(d, 'scores.json'), 'utf8'));
   s.weeks.find((w) => w.week === 2).results.find((x) => x.coupleId === 'carson').score = 13;
   writeFileSync(join(d, 'scores.json'), JSON.stringify(s, null, 2));
@@ -61,7 +63,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
 // ---- 4. Unknown names are flagged, not guessed.
 {
   console.log('Unknown name');
-  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(join('data', f), join(d, f)));
+  const d = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(f === 'scores.json' ? FIX_SCORES : join('data', f), join(d, f)));
   const wt = readFileSync('tests/fixtures/season35-rev1377959004.wikitext', 'utf8').replace('! scope="row" | Guillermo & Witney\n| 15 (5, 5, 5)', '! scope="row" | Guillermo & Witnee\n| 15 (5, 5, 5)');
   writeFileSync(join(d, 'w.txt'), wt);
   const r = run(d, ['--wikitext-file', join(d, 'w.txt')]);
@@ -122,8 +124,8 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
 {
   console.log('Simulated weeks 4-5 (tests/fixtures/season35-sim-weeks4-5.wikitext)');
   const expected = JSON.parse(readFileSync('tests/fixtures/season35-sim-expected.json', 'utf8'));
-  const d = tmp(); ['season.json', 'scores.json', 'league.json'].forEach((f) => copyFileSync(join('data', f), join(d, f)));
-  const orig = JSON.parse(readFileSync('data/scores.json', 'utf8'));
+  const d = tmp(); ['season.json', 'scores.json', 'league.json'].forEach((f) => copyFileSync(f === 'scores.json' ? FIX_SCORES : join('data', f), join(d, f)));
+  const orig = JSON.parse(readFileSync(FIX_SCORES, 'utf8'));
   const r = run(d, ['--wikitext-file', 'tests/fixtures/season35-sim-weeks4-5.wikitext']);
   const out = JSON.parse(readFileSync(join(d, 'scores.json'), 'utf8'));
   ok(r.code === 0 && r.rep.report.conflicts.length === 0 && r.rep.report.flags.length === 0, 'exit 0, no conflicts, no flags');
@@ -145,7 +147,7 @@ const tmp = () => mkdtempSync(join(tmpdir(), 'autoscore-'));
   const v = execFileSync('node', ['tests/verify-scoring.mjs', 'tests/fixtures/original-app.js', d], { encoding: 'utf8' });
   ok(/0 mismatches/.test(v), 'original app vs scoring.js on simulated weeks 1-5: ' + v.trim().split('\n').pop());
   const gap = readFileSync('tests/fixtures/season35-sim-weeks4-5.wikitext', 'utf8').replace('| 14 (7, 7)\n| Jazz\n| "[[Emotions', '|\n| Jazz\n| "[[Emotions');
-  const d2 = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(join('data', f), join(d2, f))); writeFileSync(join(d2, 'w.txt'), gap);
+  const d2 = tmp(); ['season.json', 'scores.json'].forEach((f) => copyFileSync(f === 'scores.json' ? FIX_SCORES : join('data', f), join(d2, f))); writeFileSync(join(d2, 'w.txt'), gap);
   const g = run(d2, ['--wikitext-file', join(d2, 'w.txt')]);
   const gout = JSON.parse(readFileSync(join(d2, 'scores.json'), 'utf8'));
   ok(!gout.weeks.some((w) => w.week >= 4) && g.rep.report.flags.some((f) => /week 4 is missing, so week 5 was not created/.test(f)), 'incomplete week 4 -> week 5 not created (no gaps)');

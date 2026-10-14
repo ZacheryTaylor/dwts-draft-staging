@@ -1,0 +1,245 @@
+{
+  "source": "Confirmed Dancing with the Stars weekly judge scores and elimination results",
+  "updatedAt": "2026-10-02T20:37:52.298Z",
+  "weeks": [
+    {
+      "week": 3,
+      "label": "Yacht Rock Night",
+      "maxScore": 30,
+      "results": [
+        {
+          "coupleId": "ravnik",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "burgess",
+          "score": 17,
+          "eliminated": false
+        },
+        {
+          "coupleId": "chmerkovskiy",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "karagach",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "pashkov",
+          "score": 24,
+          "eliminated": false
+        },
+        {
+          "coupleId": "stewart",
+          "score": 18,
+          "eliminated": true
+        },
+        {
+          "coupleId": "ballas",
+          "score": 22,
+          "eliminated": false
+        },
+        {
+          "coupleId": "armstrong",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "slater",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "carson",
+          "score": 15,
+          "eliminated": false
+        },
+        {
+          "coupleId": "johnson",
+          "score": 24,
+          "eliminated": false
+        },
+        {
+          "coupleId": "sosa",
+          "score": 19,
+          "eliminated": false
+        },
+        {
+          "coupleId": "arnold",
+          "score": 20,
+          "eliminated": false
+        }
+      ],
+      "name": "Yacht Rock Night"
+    },
+    {
+      "week": 2,
+      "label": "Viral Hits Night",
+      "maxScore": 30,
+      "results": [
+        {
+          "coupleId": "ravnik",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "burgess",
+          "score": 16,
+          "eliminated": false
+        },
+        {
+          "coupleId": "bersten",
+          "score": 12,
+          "eliminated": true
+        },
+        {
+          "coupleId": "chmerkovskiy",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "karagach",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "pashkov",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "stewart",
+          "score": 15,
+          "eliminated": false
+        },
+        {
+          "coupleId": "ballas",
+          "score": 19,
+          "eliminated": false
+        },
+        {
+          "coupleId": "armstrong",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "slater",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "carson",
+          "score": 12,
+          "eliminated": false
+        },
+        {
+          "coupleId": "johnson",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "sosa",
+          "score": 16,
+          "eliminated": false
+        },
+        {
+          "coupleId": "arnold",
+          "score": 15,
+          "eliminated": false
+        }
+      ],
+      "name": "Viral Hits Night"
+    },
+    {
+      "week": 1,
+      "label": "Premiere Night 1",
+      "maxScore": 30,
+      "results": [
+        {
+          "coupleId": "ravnik",
+          "score": 12,
+          "eliminated": false
+        },
+        {
+          "coupleId": "burgess",
+          "score": 17,
+          "eliminated": false
+        },
+        {
+          "coupleId": "bersten",
+          "score": 16,
+          "eliminated": false
+        },
+        {
+          "coupleId": "chmerkovskiy",
+          "score": 19,
+          "eliminated": false
+        },
+        {
+          "coupleId": "karagach",
+          "score": 20,
+          "eliminated": false
+        },
+        {
+          "coupleId": "pashkov",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "stewart",
+          "score": 16,
+          "eliminated": false
+        },
+        {
+          "coupleId": "ballas",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "zaikman",
+          "score": 12,
+          "eliminated": true
+        },
+        {
+          "coupleId": "armstrong",
+          "score": 15,
+          "eliminated": false
+        },
+        {
+          "coupleId": "bills",
+          "score": 14,
+          "eliminated": true
+        },
+        {
+          "coupleId": "slater",
+          "score": 15,
+          "eliminated": false
+        },
+        {
+          "coupleId": "carson",
+          "score": 10,
+          "eliminated": false
+        },
+        {
+          "coupleId": "johnson",
+          "score": 21,
+          "eliminated": false
+        },
+        {
+          "coupleId": "sosa",
+          "score": 18,
+          "eliminated": false
+        },
+        {
+          "coupleId": "arnold",
+          "score": 16,
+          "eliminated": false
+        }
+      ],
+      "name": "Premiere"
+    }
+  ]
+}
