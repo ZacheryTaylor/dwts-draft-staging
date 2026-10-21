@@ -7,7 +7,7 @@
   "multiDancePolicy": "average",
   "absentJudgePolicy": "scale",
   "requireCompleteWeek": true,
-  "aliases": {},
+  "aliases": { "Jenna & Alan": "chmerkovskiy" },
   "_notes": {
     "multiDancePolicy": "Zach decided 2026-10-02: average (mean of the permanent-judge totals of each dance, each out of 30, so a perfect week = full value). Other options: flag, sum, first.",
     "absentJudgePolicy": "Zach decided 2026-10-02: scale (one permanent judge absent -> remaining total x 30/20). Option: flag. Two or more absent is always flagged.",
