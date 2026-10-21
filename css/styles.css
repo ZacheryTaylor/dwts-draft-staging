@@ -404,3 +404,6 @@ footer { padding: var(--space-5) var(--space-4) calc(var(--space-6) + env(safe-a
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Logo C star at end of banner title */
+.title-star { display: inline-block; height: 0.6em; width: auto; margin-left: 0.08em; vertical-align: 0.45em; }
